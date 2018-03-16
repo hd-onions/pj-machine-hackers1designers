@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="after4" format="1">
+  <advance width="188"/>
+  <outline>
+    <component base="before5" xScale="-0.9999999999999993" xyScale="5.5511151231257815e-17" yxScale="-5.5511151231257815e-17" yScale="-0.9999999999999993" xOffset="188" yOffset="750"/>
+    <component base="jointure"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="VTF" format="1">
+  <advance width="1500"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="132" y="0" type="line" smooth="yes"/>
+      <point x="170.0" y="0.0"/>
+      <point x="186.46000077327395" y="21.06717447081264"/>
+      <point x="182" y="50" type="curve" smooth="yes"/>
+      <point x="143" y="303" type="line" smooth="yes"/>
+      <point x="138.36643361618323" y="333.0587767975805"/>
+      <point x="118.0" y="350.0"/>
+      <point x="88" y="350" type="curve" smooth="yes"/>
+      <point x="0" y="350" type="line"/>
+    </contour>
+    <contour>
+      <point x="75" y="400" type="line" smooth="yes"/>
+      <point x="104.0" y="400.0"/>
+      <point x="124.28388320739045" y="424.0420253833466"/>
+      <point x="120" y="452" type="curve" smooth="yes"/>
+      <point x="82" y="700" type="line" smooth="yes"/>
+      <point x="77.56612914293285" y="728.9368413829645"/>
+      <point x="60.0" y="750.0"/>
+      <point x="32" y="750" type="curve" smooth="yes"/>
+      <point x="0" y="750" type="line"/>
+      <point x="0" y="400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1183" y="222" type="curve" smooth="yes"/>
+      <point x="1183" y="50" type="line" smooth="yes"/>
+      <point x="1183" y="22"/>
+      <point x="1205" y="0"/>
+      <point x="1233" y="0" type="curve" smooth="yes"/>
+      <point x="1499" y="0" type="line"/>
+      <point x="1499" y="350" type="line"/>
+      <point x="1439" y="350" type="line" smooth="yes"/>
+      <point x="1387" y="350"/>
+      <point x="1394" y="274"/>
+      <point x="1355" y="274" type="curve" smooth="yes"/>
+      <point x="1233" y="274" type="line" smooth="yes"/>
+      <point x="1205" y="274"/>
+      <point x="1183" y="251"/>
+    </contour>
+    <contour>
+      <point x="370" y="750" type="curve" smooth="yes"/>
+      <point x="295" y="750" type="line" smooth="yes"/>
+      <point x="267.0" y="750.0"/>
+      <point x="240.6101514840736" y="723.951866370013"/>
+      <point x="245" y="690" type="curve" smooth="yes"/>
+      <point x="324" y="79" type="line" smooth="yes"/>
+      <point x="328.3898485159264" y="45.048133629987014"/>
+      <point x="346.0" y="19.0"/>
+      <point x="374" y="19" type="curve" smooth="yes"/>
+      <point x="377" y="19" type="line" smooth="yes"/>
+      <point x="405.0" y="19.0"/>
+      <point x="422.6110846065162" y="45.048012993804896"/>
+      <point x="427" y="79" type="curve" smooth="yes"/>
+      <point x="480" y="489" type="line" smooth="yes"/>
+      <point x="483.3553566461053" y="514.9565325453427"/>
+      <point x="500.0" y="530.0"/>
+      <point x="526" y="530" type="curve" smooth="yes"/>
+      <point x="603" y="530" type="line" smooth="yes"/>
+      <point x="629.0" y="530.0"/>
+      <point x="642.4638830805121" y="512.9399581796871"/>
+      <point x="639" y="488" type="curve" smooth="yes"/>
+      <point x="634" y="452" type="line" smooth="yes"/>
+      <point x="630.1089788717952" y="423.98464787692535"/>
+      <point x="650.0" y="400.0"/>
+      <point x="679" y="400" type="curve" smooth="yes"/>
+      <point x="700" y="400" type="line" smooth="yes"/>
+      <point x="728.0" y="400.0"/>
+      <point x="750.0" y="422.0"/>
+      <point x="750" y="450" type="curve" smooth="yes"/>
+      <point x="750" y="561" type="line" smooth="yes"/>
+      <point x="750.0" y="589.0"/>
+      <point x="728.0" y="611.0"/>
+      <point x="700" y="611" type="curve" smooth="yes"/>
+      <point x="511" y="611" type="line" smooth="yes"/>
+      <point x="396.0" y="611.0"/>
+      <point x="464.0" y="750.0"/>
+    </contour>
+    <contour>
+      <point x="700" y="0" type="line" smooth="yes"/>
+      <point x="728.0" y="0.0"/>
+      <point x="750.0" y="22.0"/>
+      <point x="750" y="50" type="curve" smooth="yes"/>
+      <point x="750" y="300" type="line" smooth="yes"/>
+      <point x="750.0" y="328.0"/>
+      <point x="728.0" y="350.0"/>
+      <point x="700" y="350" type="curve" smooth="yes"/>
+      <point x="666" y="350" type="line" smooth="yes"/>
+      <point x="636.0" y="350.0"/>
+      <point x="615.6335663838167" y="333.0587767975805"/>
+      <point x="611" y="303" type="curve" smooth="yes"/>
+      <point x="572" y="50" type="line" smooth="yes"/>
+      <point x="567.5399992267261" y="21.067174470812642"/>
+      <point x="583.9868443825036" y="0.0"/>
+      <point x="622" y="0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1233" y="400" type="curve" smooth="yes"/>
+      <point x="1500" y="400" type="line"/>
+      <point x="1500" y="750" type="line"/>
+      <point x="1405" y="750"/>
+      <point x="1474" y="611"/>
+      <point x="1359" y="611" type="curve" smooth="yes"/>
+      <point x="950" y="611" type="line" smooth="yes"/>
+      <point x="922" y="611"/>
+      <point x="900.0" y="589.0"/>
+      <point x="900" y="561" type="curve" smooth="yes"/>
+      <point x="900" y="450" type="line" smooth="yes"/>
+      <point x="900.0" y="422.0"/>
+      <point x="918" y="400"/>
+      <point x="940" y="400" type="curve" smooth="yes"/>
+      <point x="980" y="400" type="line" smooth="yes"/>
+      <point x="1014" y="400"/>
+      <point x="1030" y="423"/>
+      <point x="1030" y="452" type="curve" smooth="yes"/>
+      <point x="1030" y="491" type="line" smooth="yes"/>
+      <point x="1030" y="514"/>
+      <point x="1046" y="530"/>
+      <point x="1069" y="530" type="curve" smooth="yes"/>
+      <point x="1144" y="530" type="line" smooth="yes"/>
+      <point x="1167" y="530"/>
+      <point x="1183" y="514"/>
+      <point x="1183" y="491" type="curve" smooth="yes"/>
+      <point x="1183" y="452" type="line" smooth="yes"/>
+      <point x="1183" y="423"/>
+      <point x="1205" y="400"/>
+    </contour>
+    <contour>
+      <point x="900" y="300" type="curve" smooth="yes"/>
+      <point x="900" y="50" type="line" smooth="yes"/>
+      <point x="900" y="22"/>
+      <point x="922" y="0"/>
+      <point x="950" y="0" type="curve" smooth="yes"/>
+      <point x="980" y="0" type="line" smooth="yes"/>
+      <point x="1008" y="0"/>
+      <point x="1030" y="22"/>
+      <point x="1030" y="50" type="curve" smooth="yes"/>
+      <point x="1030" y="300" type="line" smooth="yes"/>
+      <point x="1030" y="328"/>
+      <point x="1008" y="350"/>
+      <point x="980" y="350" type="curve" smooth="yes"/>
+      <point x="950" y="350" type="line" smooth="yes"/>
+      <point x="922" y="350"/>
+      <point x="900" y="328"/>
+    </contour>
+    <component base="jointure"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>588</integer>
+          <key>y</key>
+          <integer>530</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>V</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>T</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>750</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>F</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>1500</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>1213</integer>
+                  <key>y</key>
+                  <integer>450</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1213</integer>
+                  <key>y</key>
+                  <integer>422</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1235</integer>
+                  <key>y</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>1263</integer>
+                  <key>y</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1700</integer>
+                  <key>y</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1700</integer>
+                  <key>y</key>
+                  <integer>750</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>1680</integer>
+                  <key>y</key>
+                  <integer>750</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1625</integer>
+                  <key>y</key>
+                  <integer>750</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1689</integer>
+                  <key>y</key>
+                  <integer>631</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>1608</integer>
+                  <key>y</key>
+                  <integer>631</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>1263</integer>
+                  <key>y</key>
+                  <integer>631</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1235</integer>
+                  <key>y</key>
+                  <integer>631</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1213</integer>
+                  <key>y</key>
+                  <integer>609</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>1213</integer>
+                  <key>y</key>
+                  <integer>581</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>VTF</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1500</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

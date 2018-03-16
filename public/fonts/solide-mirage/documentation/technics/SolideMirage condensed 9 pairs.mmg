@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xml>
+  <group color="1.0 0.0 0.0 0.25" name="A" side="left" type="kerning">
+    <glyphs>
+      A
+      Aacute
+      Abreve
+      Acircumflex
+      Adieresis
+      Agrave
+      Amacron
+      Aring
+      Atilde
+    </glyphs>
+  </group>
+  <group color="1.0 0.5 0.0 0.25" name="A.alt" side="left" type="kerning">
+    <glyphs>
+      A.2
+    </glyphs>
+  </group>
+  <group color="1.0 1.0 0.0 0.25" name="L" side="left" type="kerning">
+    <glyphs>
+      L
+    </glyphs>
+  </group>
+  <group color="0.0 1.0 0.0 0.25" name="M" side="left" type="kerning">
+    <glyphs>
+      M
+    </glyphs>
+  </group>
+  <group color="0.0 1.0 1.0 0.25" name="O" side="left" type="kerning">
+    <glyphs>
+      D
+      O
+      Oacute
+      Obreve
+      Ocircumflex
+      Odieresis
+      Ograve
+      Ohungarumlaut
+      Omacron
+      Otilde
+      Q
+      ae
+      e
+      eacute
+      ebreve
+      ecaron
+      ecircumflex
+      edieresis
+      edotaccent
+      egrave
+      emacron
+      o
+      o.2
+      oacute
+      obreve
+      ocircumflex
+      odieresis
+      oe
+      ograve
+      ohungarumlaut
+      omacron
+      otilde
+      zero
+    </glyphs>
+  </group>
+  <group color="0.0 0.5 1.0 0.25" name="T" side="left" type="kerning">
+    <glyphs>
+      T
+    </glyphs>
+  </group>
+  <group color="0.0 0.0 1.0 0.25" name="U" side="left" type="kerning">
+    <glyphs>
+      J
+      U
+      Uacute
+      Ubreve
+      Ucircumflex
+      Udieresis
+      Ugrave
+      Uhungarumlaut
+      Umacron
+      Uring
+      Utilde
+      j
+    </glyphs>
+  </group>
+  <group color="0.5 0.0 1.0 0.25" name="V" side="left" type="kerning">
+    <glyphs>
+      V
+      Y
+      Yacute
+      Ycircumflex
+      Ydieresis
+      Ygrave
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 1.0 0.25" name="V.alt" side="left" type="kerning">
+    <glyphs>
+      V.2
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.5 0.25" name="a" side="left" type="kerning">
+    <glyphs>
+      a
+      aacute
+      abreve
+      acircumflex
+      adieresis
+      agrave
+      amacron
+      aring
+      atilde
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.0 0.25" name="f" side="left" type="kerning">
+    <glyphs>
+      f
+    </glyphs>
+  </group>
+  <group color="1.0 0.5 0.0 0.25" name="l" side="left" type="kerning">
+    <glyphs>
+      l
+    </glyphs>
+  </group>
+  <group color="0.0 1.0 1.0 0.25" name="p" side="left" type="kerning">
+    <glyphs>
+      p
+    </glyphs>
+  </group>
+  <group color="0.0 0.5 1.0 0.25" name="punc_low" side="left" type="kerning">
+    <glyphs>
+      comma
+      ellipsis
+      period
+      quotedblbase
+      quotesinglbase
+      underscore
+    </glyphs>
+  </group>
+  <group color="1.0 1.0 0.0 0.25" name="r" side="left" type="kerning">
+    <glyphs>
+      r
+    </glyphs>
+  </group>
+  <group color="0.0 1.0 0.0 0.25" name="v" side="left" type="kerning">
+    <glyphs>
+      v
+      w
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.0 0.25" name="A" side="right" type="kerning">
+    <glyphs>
+      A
+      Aacute
+      Abreve
+      Acircumflex
+      Adieresis
+      Agrave
+      Amacron
+      Aring
+      Atilde
+    </glyphs>
+  </group>
+  <group color="1.0 0.5 0.0 0.25" name="A.alt" side="right" type="kerning">
+    <glyphs>
+      A.2
+    </glyphs>
+  </group>
+  <group color="1.0 1.0 0.0 0.25" name="J" side="right" type="kerning">
+    <glyphs>
+      J
+    </glyphs>
+  </group>
+  <group color="0.0 1.0 0.0 0.25" name="M" side="right" type="kerning">
+    <glyphs>
+      M
+    </glyphs>
+  </group>
+  <group color="0.0 1.0 1.0 0.25" name="O" side="right" type="kerning">
+    <glyphs>
+      C
+      Cacute
+      Ccaron
+      Ccedilla
+      Ccircumflex
+      Cdotaccent
+      G
+      O
+      OE
+      Oacute
+      Obreve
+      Ocircumflex
+      Odieresis
+      Ograve
+      Ohungarumlaut
+      Omacron
+      Otilde
+      Q
+      c
+      cacute
+      ccaron
+      ccedilla
+      ccircumflex
+      cdotaccent
+      e
+      eacute
+      ebreve
+      ecaron
+      ecircumflex
+      edieresis
+      edotaccent
+      egrave
+      emacron
+      o
+      o.2
+      oacute
+      obreve
+      ocircumflex
+      odieresis
+      oe
+      ograve
+      ohungarumlaut
+      omacron
+      otilde
+      zero
+    </glyphs>
+  </group>
+  <group color="0.0 0.5 1.0 0.25" name="T" side="right" type="kerning">
+    <glyphs>
+      T
+    </glyphs>
+  </group>
+  <group color="0.0 0.0 1.0 0.25" name="U" side="right" type="kerning">
+    <glyphs>
+      U
+      Uacute
+      Ubreve
+      Ucircumflex
+      Udieresis
+      Ugrave
+      Uhungarumlaut
+      Umacron
+      Uring
+      Utilde
+      t
+    </glyphs>
+  </group>
+  <group color="0.5 0.0 1.0 0.25" name="V" side="right" type="kerning">
+    <glyphs>
+      V
+      Y
+      Yacute
+      Ycircumflex
+      Ydieresis
+      Ygrave
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 1.0 0.25" name="V.alt" side="right" type="kerning">
+    <glyphs>
+      V.2
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.5 0.25" name="j" side="right" type="kerning">
+    <glyphs>
+      j
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.0 0.25" name="punct_low" side="right" type="kerning">
+    <glyphs>
+      comma
+      ellipsis
+      period
+      quotedblbase
+      quotesinglbase
+      underscore
+    </glyphs>
+  </group>
+</xml>

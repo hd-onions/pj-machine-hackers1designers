@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dngb:arrowheadrightthreeDtoplight" format="1">
+  <advance width="930"/>
+  <unicode hex="27A2"/>
+  <outline>
+    <contour>
+      <point x="196" y="109" type="line"/>
+      <point x="286" y="397" type="line"/>
+      <point x="196" y="688" type="line"/>
+      <point x="693" y="397" type="line"/>
+    </contour>
+    <contour>
+      <point x="316" y="397" type="line"/>
+      <point x="636" y="397" type="line"/>
+      <point x="246" y="626" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

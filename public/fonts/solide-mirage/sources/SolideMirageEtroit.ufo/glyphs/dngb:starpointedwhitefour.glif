@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dngb:starpointedwhitefour" format="1">
+  <advance width="930"/>
+  <unicode hex="2727"/>
+  <outline>
+    <contour>
+      <point x="767" y="403" type="curve"/>
+      <point x="767" y="393" type="line"/>
+      <point x="622" y="333"/>
+      <point x="530" y="242"/>
+      <point x="470" y="97" type="curve"/>
+      <point x="460" y="97" type="line"/>
+      <point x="400" y="242"/>
+      <point x="308" y="333"/>
+      <point x="163" y="393" type="curve"/>
+      <point x="163" y="403" type="line"/>
+      <point x="308" y="463"/>
+      <point x="400" y="554"/>
+      <point x="460" y="699" type="curve"/>
+      <point x="470" y="699" type="line"/>
+      <point x="530" y="554"/>
+      <point x="622" y="463"/>
+    </contour>
+    <contour>
+      <point x="410" y="530"/>
+      <point x="332" y="453"/>
+      <point x="222" y="398" type="curve"/>
+      <point x="332" y="343"/>
+      <point x="410" y="266"/>
+      <point x="465" y="156" type="curve"/>
+      <point x="520" y="266"/>
+      <point x="598" y="343"/>
+      <point x="708" y="398" type="curve"/>
+      <point x="598" y="453"/>
+      <point x="520" y="530"/>
+      <point x="465" y="640" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>465</integer>
+                  <key>y</key>
+                  <integer>95</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>767</integer>
+                  <key>y</key>
+                  <integer>398</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>465</integer>
+                  <key>y</key>
+                  <integer>699</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>460</integer>
+                  <key>y</key>
+                  <integer>699</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>400</integer>
+                  <key>y</key>
+                  <integer>554</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>308</integer>
+                  <key>y</key>
+                  <integer>463</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>163</integer>
+                  <key>y</key>
+                  <integer>403</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>163</integer>
+                  <key>y</key>
+                  <integer>398</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>dngb:starpointedwhitefour</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>930</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.8157</real>
+        <real>0.8157</real>
+        <real>0.8157</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

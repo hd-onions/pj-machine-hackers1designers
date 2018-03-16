@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglright" format="1">
+  <advance width="365"/>
+  <unicode hex="203A"/>
+  <outline>
+    <component base="guilsinglleft" xScale="-1.0000000000000002" xyScale="5.551115123125783e-17" yxScale="-5.551115123125783e-17" yScale="-1.0000000000000002" xOffset="365" yOffset="794"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.8747</real>
+        <real>0.7364</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

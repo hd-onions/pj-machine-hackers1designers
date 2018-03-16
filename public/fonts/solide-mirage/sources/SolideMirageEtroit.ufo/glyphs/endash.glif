@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash" format="1">
+  <advance width="465"/>
+  <unicode hex="2013"/>
+  <outline>
+    <contour>
+      <point x="395" y="398" type="line"/>
+      <point x="70" y="398" type="line"/>
+      <point x="70" y="425" type="line"/>
+      <point x="395" y="425" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.8747</real>
+        <real>0.7364</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown" format="1">
+  <advance width="249.0"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <component base="exclam" xScale="-0.9999999999999998" xyScale="1.6653345369377348e-16" yxScale="-1.6653345369377348e-16" yScale="-0.9999999999999998" xOffset="249" yOffset="700"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.8747</real>
+        <real>0.7364</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="triangleupwhite" format="1">
+  <advance width="930"/>
+  <unicode hex="25B3"/>
+  <outline>
+    <contour>
+      <point x="45" y="0" type="line"/>
+      <point x="465" y="800" type="line"/>
+      <point x="885" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="465" y="737" type="line"/>
+      <point x="93" y="29" type="line"/>
+      <point x="837" y="29" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

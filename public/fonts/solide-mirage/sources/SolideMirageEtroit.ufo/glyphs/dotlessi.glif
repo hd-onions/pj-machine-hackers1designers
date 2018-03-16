@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotlessi" format="1">
+  <advance width="530"/>
+  <unicode hex="0131"/>
+  <outline>
+    <contour>
+      <point x="329" y="0" type="line"/>
+      <point x="201" y="0" type="line"/>
+      <point x="201" y="590" type="line"/>
+      <point x="329" y="590" type="line"/>
+    </contour>
+    <contour>
+      <point x="439" y="25" type="line"/>
+      <point x="439" y="0" type="line"/>
+      <point x="307" y="0" type="line"/>
+      <point x="307" y="25" type="line"/>
+    </contour>
+    <contour>
+      <point x="223" y="0" type="line"/>
+      <point x="90" y="0" type="line"/>
+      <point x="90" y="25" type="line"/>
+      <point x="223" y="25" type="line"/>
+    </contour>
+    <contour>
+      <point x="90" y="565" type="line"/>
+      <point x="90" y="590" type="line"/>
+      <point x="228" y="590" type="line"/>
+      <point x="228" y="565" type="line"/>
+    </contour>
+    <contour>
+      <point x="440" y="590" type="line"/>
+      <point x="440" y="566" type="line"/>
+      <point x="307" y="566" type="line"/>
+      <point x="307" y="590" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.4809</real>
+        <real>1.0</real>
+        <real>0.7016</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

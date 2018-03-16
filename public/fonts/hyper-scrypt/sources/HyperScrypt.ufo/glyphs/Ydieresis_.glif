@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ydieresis" format="1">
+  <advance width="750"/>
+  <unicode hex="0178"/>
+  <outline>
+    <component base="dieresis" xOffset="1.0"/>
+    <component base="Y.acc"/>
+  </outline>
+</glyph>

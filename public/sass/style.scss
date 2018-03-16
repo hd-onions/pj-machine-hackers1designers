@@ -1,0 +1,29 @@
+// I M P O R T
+@import "../bower_components/foundation/scss/normalize.scss";
+//@import "../bower_components/foundation/scss/foundation.scss";
+
+
+@import "_variables.scss";
+@import "_interface.scss";
+@import "_page.scss";
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height:100%;
+  margin:0;
+}
+
+img{
+  max-width: 100%;
+}
+
+
+
+
+

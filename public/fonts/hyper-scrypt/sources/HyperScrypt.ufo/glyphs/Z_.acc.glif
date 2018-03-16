@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z.acc" format="1">
+  <advance width="750"/>
+  <outline>
+    <contour>
+      <point x="750" y="400" type="line"/>
+      <point x="750" y="650" type="line"/>
+      <point x="613" y="650" type="line"/>
+      <point x="645" y="650"/>
+      <point x="658" y="632"/>
+      <point x="637" y="599" type="curve" smooth="yes"/>
+      <point x="542" y="450" type="line" smooth="yes"/>
+      <point x="529" y="429"/>
+      <point x="545" y="400"/>
+      <point x="572" y="400" type="curve"/>
+    </contour>
+    <contour>
+      <point x="447" y="300" type="curve" smooth="yes"/>
+      <point x="381" y="196" type="line" smooth="yes"/>
+      <point x="349" y="145"/>
+      <point x="359" y="119"/>
+      <point x="410" y="119" type="curve" smooth="yes"/>
+      <point x="654" y="119" type="line" smooth="yes"/>
+      <point x="740" y="119"/>
+      <point x="672" y="0"/>
+      <point x="730" y="0" type="curve"/>
+      <point x="750" y="0" type="line"/>
+      <point x="750" y="350" type="line"/>
+      <point x="548" y="350" type="line" smooth="yes"/>
+      <point x="503" y="350"/>
+      <point x="465" y="329"/>
+    </contour>
+    <contour>
+      <point x="0" y="350" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="46.71604938271605" y="0.0"/>
+      <point x="101" y="31"/>
+      <point x="176" y="149" type="curve" smooth="yes"/>
+      <point x="272" y="300" type="line" smooth="yes"/>
+      <point x="285" y="321"/>
+      <point x="269" y="350"/>
+      <point x="242" y="350" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="114" y="650" type="curve"/>
+      <point x="0" y="650" type="line"/>
+      <point x="0" y="400" type="line"/>
+      <point x="255" y="400" type="line" smooth="yes"/>
+      <point x="304" y="400"/>
+      <point x="345" y="422"/>
+      <point x="366" y="450" type="curve" smooth="yes"/>
+      <point x="369" y="454" type="line" smooth="yes"/>
+      <point x="399" y="493"/>
+      <point x="386" y="531"/>
+      <point x="347" y="531" type="curve" smooth="yes"/>
+      <point x="122" y="531" type="line"/>
+      <point x="83" y="531"/>
+      <point x="78" y="558"/>
+      <point x="76" y="586" type="curve"/>
+      <point x="76" y="600" type="line"/>
+      <point x="76" y="628"/>
+      <point x="86" y="650"/>
+    </contour>
+    <component base="jointure"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>Z</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>move</string>
+                  <key>x</key>
+                  <integer>670</integer>
+                  <key>y</key>
+                  <integer>751</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>256</integer>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>x</key>
+                  <integer>670</integer>
+                  <key>y</key>
+                  <integer>651</integer>
+                </dict>
+              </array>
+            </dict>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>move</string>
+                  <key>x</key>
+                  <integer>495</integer>
+                  <key>y</key>
+                  <integer>751</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>81</integer>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>x</key>
+                  <integer>495</integer>
+                  <key>y</key>
+                  <integer>651</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+            <key>com.typemytype.robofont.layerData</key>
+            <dict>
+            </dict>
+          </dict>
+          <key>name</key>
+          <string>Z.acc</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>750</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

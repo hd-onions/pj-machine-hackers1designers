@@ -1,0 +1,39 @@
+@befores = [ before before2 before3 before4 before5 before6 before7 before8 before9 before10 ];
+@afters = [ after after2 after3 after4 after5 after6 after7 after8 after9 after10 ];
+@letters = [A C D E F H I K L M N O P R S T U V W Y ];
+
+feature liga {
+    sub space.3 space' by space.3;
+    } liga;
+
+feature aalt {
+    sub before from @befores ;
+    sub before2 from @befores ;
+    sub before3 from @befores ;
+    sub before4 from @befores ;
+    sub before5 from @befores ;
+    sub before6 from @befores ;
+    sub before7 from @befores ;
+    sub before8 from @befores ;
+    sub before9 from @befores ;
+    sub before10 from @befores ;
+    sub after from @afters ;
+    sub after2 from @afters ;
+    sub after3 from @afters ;
+    sub after4 from @afters ;
+    sub after5 from @afters ;
+    sub after6 from @afters ;
+    sub after7 from @afters ;
+    sub after8 from @afters ;
+    sub after9 from @afters ;
+    
+    sub space from [space.2 space.3];
+    sub space.2 from [space space.3];
+    sub space.3 from [space space.2];
+    
+    sub hyphen from [half_hyphen endash emdash];
+
+    sub E from [E.2];
+    sub M from [M.2];
+    
+    } aalt;

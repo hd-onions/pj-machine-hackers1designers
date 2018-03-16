@@ -1,0 +1,79 @@
+@cap = [ A Agrave Aacute Acircumflex Atilde Adieresis Abreve Amacron Aring B C Cacute Ccircumflex Ccedilla Ccaron Cdotaccent D E Egrave Eacute Ecircumflex Edieresis Ebreve Ecaron Emacron Edotaccent F G H I I.acc Igrave Iacute Icircumflex Idieresis Itilde Ibreve Imacron J K L Lslash M N Nacute Ntilde Ncaron O Ograve Oacute Ocircumflex Otilde Odieresis Obreve Omacron Ohungarumlaut P Q R S Scircumflex Scaron T U Ugrave Uacute Ucircumflex Udieresis Utilde Ubreve Umacron Uring Uhungarumlaut V W X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent AE OE ];
+
+@bc = [ a agrave aacute acircumflex atilde adieresis abreve amacron aring b c cacute ccircumflex ccedilla ccaron cdotaccent d e egrave eacute ecircumflex edieresis ebreve ecaron emacron edotaccent f g h i dotlessi igrave iacute icircumflex idieresis itilde ibreve imacron j k l lslash m n nacute ntilde ncaron o ograve oacute ocircumflex otilde odieresis obreve omacron ohungarumlaut p q r s scircumflex scaron t u ugrave uacute ucircumflex udieresis utilde ubreve umacron uring uhungarumlaut v w x y yacute ydieresis ycircumflex ygrave z zacute zcaron zdotaccent ae oe ];
+
+@capbcspace = [ space A Agrave Aacute Acircumflex Atilde Adieresis Abreve Amacron Aring B C Cacute Ccircumflex Ccedilla Ccaron Cdotaccent D E Egrave Eacute Ecircumflex Edieresis Ebreve Ecaron Emacron Edotaccent F G H I I.acc Igrave Iacute Icircumflex Idieresis Itilde Ibreve Imacron J K L Lslash M N Nacute Ntilde Ncaron O Ograve Oacute Ocircumflex Otilde Odieresis Obreve Omacron Ohungarumlaut P Q R S Scircumflex Scaron T U Ugrave Uacute Ucircumflex Udieresis Utilde Ubreve Umacron Uring Uhungarumlaut V W X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent AE OE  a agrave aacute acircumflex atilde adieresis abreve amacron aring b c cacute ccircumflex ccedilla ccaron cdotaccent d e egrave eacute ecircumflex edieresis ebreve ecaron emacron edotaccent f g h i dotlessi igrave iacute icircumflex idieresis itilde ibreve imacron j k l lslash m n nacute ntilde ncaron o ograve oacute ocircumflex otilde odieresis obreve omacron ohungarumlaut p q r s scircumflex scaron t u ugrave uacute ucircumflex udieresis utilde ubreve umacron uring uhungarumlaut v w x y yacute ydieresis ycircumflex ygrave z zacute zcaron zdotaccent ae oe ];
+
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn ROM;
+languagesystem latn TRK;
+
+feature aalt{
+    feature ss01;
+    feature ss02;
+    feature titl;
+    }aalt;
+
+
+feature liga {
+    sub F A T A M by Fam_ligne ;
+    sub F a t a m by Fam_ligne ;
+    sub f a t a m by Fam_ligne ;
+    sub F A t a m by Fam_ligne ;
+    sub F A T a m by Fam_ligne ;
+    sub F A T A m by Fam_ligne ;
+
+    sub f r a' n ccedilla o i s by aacute;
+    sub F r a' n ccedilla o i s by aacute;
+    sub F R A' N Ccedilla O I S by Aacute;
+    sub w w w by WWW;
+    sub W W W by WWW;
+        } liga ;
+
+feature dlig {
+    lookup alterner {
+    sub @cap @cap' by @bc;
+    sub @bc @bc' by @cap;
+    } alterner;
+    } dlig ;
+
+feature ss01 {
+    lookup alterner;
+     script latn; # Latin
+    } ss01 ;
+
+feature ss02 {
+    lookup gribouillage {
+        sub O by o.2 ;
+        sub o by o.2 ;
+        sub A by A.2;
+        sub V by V.2;
+        } gribouillage;
+    } ss02;
+
+feature titl {
+   lookup gribouillage;
+    } titl ;
+
+feature ss03 {
+
+    lookup gribouillage;
+
+    sub o.2 o.2' by o;
+    sub o.2 @capbcspace o.2' by o;
+    sub o.2 @capbcspace @capbcspace o.2' by o;
+    sub o.2 @capbcspace @capbcspace @capbcspace o.2' by o;
+
+    sub A.2 A.2' by A;
+    sub A.2 @capbcspace A.2' by A;
+    sub A.2 @capbcspace @capbcspace A.2' by A;
+    sub A.2 @capbcspace @capbcspace @capbcspace A.2' by A;
+
+    sub V.2 V.2' by V;
+    sub V.2 @capbcspace V.2' by V;
+    sub V.2 @capbcspace @capbcspace V.2' by V;
+    sub V.2 @capbcspace @capbcspace @capbcspace V.2' by V;
+
+    } ss03;
