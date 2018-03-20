@@ -1,0 +1,41 @@
+doctype html
+html
+  include snippets/head.jade
+  
+  body(data-page='poster')
+
+    header
+      .module--infos
+        a(href="/")
+          h1 #{appName}
+      .module--interface-features
+        .zoomFunction
+          span.plusButton + 
+          span.zoom-value 50%
+          span.minusButton - 
+        .previewButton preview
+        .gridButton grid
+        .debugButton debug
+
+
+    .content-wrapper
+      #page-content.page(data-active-block= 1)
+        .page-wrapper
+          .grid.row
+            - for (var i = 0; i < 30; ++i) {
+              div.grid-el.columns
+            - }
+
+    .js--templates
+      .content.--js-content-el
+
+
+    include snippets/footer.jade
+    script(src='/js/interface-events.js')
+    script(src='/js/pj-send-events-keypress.js')
+    script(src='/js/pj-send-events.js')
+    script(src='/js/pj-receive-events.js')
+    script(src='/js/create-page.js')
+    script(src='/js/poster.js')
+
+

@@ -1,0 +1,136 @@
+
+path: content/data/blocks/3
+
+----
+strokeWidth: 0
+
+----
+
+opacity: 1
+
+----
+
+content: Bongani Ricky Masuku is a Zimbabwean inventor and runs Rera Digital, a start-up that provides automated feeding systems for small- to medium-scale chicken farms in Victoria Falls, Zimbabwe. Bongani was invited as a workshop leader of the Hackers & Designers Summer Academy 2017. His visa request was rejected twice without reason. He was not allowed to travel to the Netherlands and therefore could not lead the workshop. Bongani did, however, participate in the exhibition at Mediamatic. In discussion about Rera Digital, he shared the intricacies of scale and location of being on and off the grid.
+
+We asked Bongani to expand upon his background, project, and hopes for its development. 
+
+
+*Bongani:* I’m the founder of Rera Digital, where we aim to ease the burden of feeding chickens and offer better tracking and monitoring of feeding activity with an integrated mobile app.
+
+
+Feeding costs contribute to approximately 60-70% of the overall production of cost-per-chicken raised. Farmers tend to spend a lot of time on frequent fowl run visits in order to inspect the chickens and check on stock feed levels. This is due to the varying appetites of chickens, which are determined by age, number of chickens around them, and weather conditions. During batch progress, the farmer refills a 200kg stock feed storage unit. 
+
+
+![alt](/data/07-Bongani-Ricky-Masuku/3/3.jpeg)
+
+
+A feeding robot is programmed at an hourly interval to automatically collect stock feed from the feed outlet point. It refills the empty feeding troughs hung underneath the feeding runway. When using the smart chicken feeder, the farmer simply inputs data regarding the number chickens and their ages, from which it then computes the daily stock feed limit to be distributed to the chickens. When the daily stock feed limit is reached, the feeding bot goes into sleep mode and resumes the following day. The daily stock feed limits itself by working in increments according to the age of the chickens. This saves the farmer 2 x 50kg of stock feed per batch of 100 chickens.
+
+
+The smart chicken feeder is ideal for farmers who can't afford the expensive feeding equipment on the market. They usually have to rely on manual feeding when rearing 50 to 10,000 chickens. Lack of feeding control makes the production per chicken expensive and results in low sales for the farmer. 
+
+
+The smart chicken feeder is powered using a 100 watt solar panel. It is built with a battery stand with a duration of up to three days. This means that the farmer doesn’t have to worry about electricity costs, unlike the existing chicken feeding systems on the market. 
+
+
+I started Rera Digital in 2013 during my second year of college. I came up with the concept to help farmers and to maximize their production while working on an assignment to make a community project. I got help with presenting my first prototype and showed it in a congress that is held every two years. I was only a second year student and I was presenting to master students and PhD students - it was a great opportunity. I was happy to take it to the next level and make it into a start-up. It moved from being just academic research to being a tangible business. We are still at the first prototype of the machine and the system, but we should be done by July 2018. We're a team of five people. Some of us do the financial analysis, some work on the code, and some work on the machine.
+
+
+Currently, we are not funded. There are no institutes here that would fund such a project, so what we do are crowdfunding campaigns. We try to raise money to buy our components and to push the start-up forward to launch. 60% of the material we use is locally-sourced. It's a way of cutting down costs. We recycle material, especially metal. We buy sensors and electronic components from China because it is the cheapest.
+
+
+The chicken feeder is the core of the project but there are other applications in the agriculture context. What we want to try to do is a blockchain of small-scale farming.
+There's also the Roko project, which is based on water pumping. It's a solar powered mechanism that automates access to underground water. In Africa, handpumps are the conventional means of accessing underground water for small-scale farms - the irrigation of lands and the water of live stock depends on them. 
+
+
+Roko is designed to produce a linear movement to hand pumps integrated with a solar panel unit. It uses solar energy for powering the pumping mechanism up to four hours. You can schedule the irrigation through a small computer box. The total amount of underground water in Africa is ten times more than the surface water. With the help of Roko, easy access to clean water for rural areas can be implemented for improving sanitation and farming activities.
+
+
+![alt](/data/07-Bongani-Ricky-Masuku/3/3_2.jpg)
+
+
+The vision is that anyone could become a farmer in an efficient way with these tools. If you look at the conditions now for this type of farming, it's quite difficult for someone like you and me to spare the time to do it. The motivation behind the concept of the workshop was what if we could create a farming experience that can do the farming for us.
+
+
+To me it's liberating. Liberating in knowing that you have your own security in your immediate production, but also because there's an issue with money here. If you put your money in the bank it's often corrupted, so people want to invest in their land and in farming. If it can become more efficient it's good. I believe that we can really make a difference.
+
+
+Our prototypes also show that this difference is not so consistent. For example, not all of our resources and tools that make resources function in a way that is useful are local, and may have questionable ethics - like, ordering pieces from China. But, this is a part of hacking for me.
+
+
+I take hacking from a visionary perspective where you break down and rebuild and try to come up with something totally different, unpredicted, but functional. H&D were actually the first ones to call me a hacker, maybe because of the reuse of materials. I would say that I'm more than that. 
+
+
+I grew up in one of the crappiest societies so inventing things took me away from that world and absorbed me to another one where I could do something good and positive. There isn't some consistent ethical approach to doing something good and positive. Maybe this is something that can help grow the idea of hacking. That material conditions, the conditions of life, require you to carve out what your priority is - you must focus on one impact. Realizing that there are limits to what you can do and being content with that decision.
+
+
+Find more about Rera Digital here: https://www.youtube.com/watch?v=33SeEAv4beI&t=30s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
+index: 3
+
+----
+
+zoom: 0.8999999999999999
+
+----
+
+xPos: 1.7999999999999998
+
+----
+
+yPos: 13.599999999999984
+
+----
+
+wordSpace: 0
+
+----
+
+blockSize: 8
+
+----
+
+filesNb: 1
+
+----
+
+font: vollkorn
+
+----
+
+color: #3C0477
+
+----
+
+rotation: 360
+
+----

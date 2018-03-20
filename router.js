@@ -16,18 +16,29 @@ var contentFolder = settings.folder;
 module.exports = function(app,io,m){
 
   app.get("/", getIndex);
-  app.get("/print", getPrint);
-  app.get("/pdf", getPdf);
+  app.get("/:poster", getPoster);
+  app.get("/:poster/print", getPrint);
+  app.get("/:poster/pdf", getPdf);
 
   function getIndex(req, res) {
-    var slugConfName = settings.blockFolder;
-    api.readConfMeta(slugConfName).then(function(c) {
+    var dataToSend = {
+      "appName": projectTitle,
+      "contentFolder":contentFolder
+    }
+    res.render("index", dataToSend);
+
+  };
+
+  function getPoster(req, res) {
+    var slugConfName = req.params;
+    //var slugConfName = settings.blockFolder;
+    api.readConfMeta(slugConfName.poster).then(function(c) {
       var pageTitle = c.name + ' | ' + projectTitle;
-      res.render("index", {
+      res.render("poster", {
         "confName" : c.name,
         "title" : pageTitle,
         "appName" : projectTitle,
-        "slugConfName" : slugConfName,
+        "slugConfName" : slugConfName.poster,
         "contentFolder":contentFolder,
         "settings" : settings,
       });
@@ -37,15 +48,15 @@ module.exports = function(app,io,m){
   };
 
   function getPrint(req, res) {
-    var slugConfName = settings.blockFolder;
-    api.readConfMeta(slugConfName).then(function(c) {
+    var slugConfName = req.params;
+    api.readConfMeta(slugConfName.poster).then(function(c) {
 
       var pageTitle = c.name + ' | ' + projectTitle;
       res.render("print", {
         "confName" : c.name,
         "title" : pageTitle,
         "appName" : projectTitle,
-        "slugConfName" : slugConfName,
+        "slugConfName" : slugConfName.poster,
         "contentFolder":contentFolder,
         "settings" : settings,
       });

@@ -4,14 +4,15 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-@import url(../fonts/aileron/stylesheet.css);
-@import url(../fonts/Fira-Sans/stylesheet.css);
-@import url(../fonts/inknut/stylesheet.css);
-@import url(../fonts/nanook/stylesheet.css);
-@import url(../fonts/Reglo/stylesheet.css);
+@import url(../fonts/blocus/stylesheet.css);
+@import url(../fonts/bluu-next/stylesheet.css);
+@import url(../fonts/gulax/stylesheet.css);
+@import url(../fonts/hyper-scrypt/font.css);
+@import url(../fonts/resistance-generale-master/stylesheet.css);
 @import url(../fonts/roboto/stylesheet.css);
-@import url(../fonts/terminal/stylesheet.css);
-@import url(../fonts/volkorn/stylesheet.css);
+@import url(../fonts/solide-mirage/font.css);
+@import url(../fonts/sporting-grotesque/font.css);
+@import url(../fonts/trickster/font.css);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -209,7 +210,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-button,
+button, body[data-page="index"] .dossier input[type="submit"],
 input,
 optgroup,
 select,
@@ -224,7 +225,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-button {
+button, body[data-page="index"] .dossier input[type="submit"] {
   overflow: visible; }
 
 /**
@@ -233,7 +234,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-button,
+button, body[data-page="index"] .dossier input[type="submit"],
 select {
   text-transform: none; }
 
@@ -244,7 +245,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-button,
+button, body[data-page="index"] .dossier input[type="submit"],
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -256,14 +257,14 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-button[disabled],
+button[disabled], body[data-page="index"] .dossier input[disabled][type="submit"],
 html input[disabled] {
   cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner,
+button::-moz-focus-inner, body[data-page="index"] .dossier input[type="submit"]::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -417,7 +418,7 @@ header {
 .content-wrapper {
   background: #DFDFDF;
   width: 100%;
-  padding-top: 50px; }
+  padding-top: 90px; }
 
 body.preview .grid {
   display: none; }
@@ -484,9 +485,7 @@ body[data-page="pdf"] {
   margin-left: 0%;
   background-color: #FFF; }
   .content-wrapper .page .page-wrapper {
-    margin: 2cm 2cm;
-    width: 10.8cm;
-    height: 17cm; }
+    padding: 2cm 2cm; }
     .content-wrapper .page .page-wrapper .content {
       width: auto;
       height: auto;
@@ -500,6 +499,82 @@ body[data-page="pdf"] {
       .content-wrapper .page .page-wrapper .content.debug {
         border: 2px solid red; }
 
+/******************
+  Mixins
+  ********************/
+button, body[data-page="index"] .dossier input[type="submit"], .btn {
+  -webkit-appearance: none;
+  display: inline-block;
+  background: #FFF;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  font-size: .8em;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-family: inherit; }
+  button:hover, body[data-page="index"] .dossier input[type="submit"]:hover, .btn:hover {
+    background-color: #FFF;
+    color: #000; }
+  button:focus, body[data-page="index"] .dossier input[type="submit"]:focus, .btn:focus {
+    outline: none; }
+
+body[data-page="index"] {
+  background: #000;
+  color: #FFF;
+  font-family: "nanook", sans-serif; }
+  body[data-page="index"] h1, body[data-page="index"] h2, body[data-page="index"] h3, body[data-page="index"] h4, body[data-page="index"] h5 {
+    font-family: "nanook", sans-serif;
+    color: #FFF; }
+  body[data-page="index"] .module--listePresentations {
+    padding-top: 70px;
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px; }
+    body[data-page="index"] .module--listePresentations h2 {
+      color: #FFF;
+      font-size: 1.2em;
+      margin-bottom: 1em; }
+  body[data-page="index"] .dossier-list {
+    margin: 0 -10px; }
+    body[data-page="index"] .dossier-list:before, body[data-page="index"] .dossier-list:after {
+      content: " ";
+      display: table; }
+    body[data-page="index"] .dossier-list:after {
+      clear: both; }
+  body[data-page="index"] .dossier {
+    position: relative;
+    width: 285px;
+    float: left;
+    padding: 15px 20px 20px;
+    margin: 10px;
+    background-color: #FFF;
+    border-bottom: 2px solid #FFF;
+    border-radius: 2px; }
+    body[data-page="index"] .dossier_newconfform {
+      background-color: transparent;
+      border: 2px solid #f0f0f0; }
+    body[data-page="index"] .dossier input.title {
+      font-size: 1rem; }
+    body[data-page="index"] .dossier .title {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      color: #000;
+      margin-bottom: 0; }
+    body[data-page="index"] .dossier input, body[data-page="index"] .dossier textarea {
+      width: 100%;
+      padding: 5px;
+      border: 2px solid #eee; }
+      body[data-page="index"] .dossier input:focus, body[data-page="index"] .dossier textarea:focus {
+        outline: 2px solid #FFF; }
+    body[data-page="index"] .dossier input[type="submit"] {
+      width: auto;
+      float: right;
+      margin-top: 15px; }
+
 * {
   box-sizing: border-box; }
 
@@ -507,7 +582,8 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  margin: 0; }
+  margin: 0;
+  color: #000; }
 
 img {
   max-width: 100%; }

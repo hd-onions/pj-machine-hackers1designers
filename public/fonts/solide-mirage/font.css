@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Solide Mirage_Etroit';
+    font-family: 'solidemirage_Etroit';
     src:    url('Etroit/Solide_Mirage-Etroit_web.eot');
     src:    url('Etroit/Solide_Mirage-Etroit_web.eot?#iefix') format('embedded-opentype'),
             url('Etroit/Solide_Mirage-Etroit_web.woff') format('woff'),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Solide Mirage';
+    font-family: 'solidemirage';
     src:    url('Mono/Solide_Mirage-Mono_web.eot');
     src:    url('Mono/Solide_Mirage-Mono_web.eot?#iefix') format('embedded-opentype'),
             url('Mono/Solide_Mirage-Mono_web.woff') format('woff'),

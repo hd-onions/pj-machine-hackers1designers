@@ -6,10 +6,10 @@ const fs = require('fs-extra'),
 	exec = require('child_process').exec,
 	parsedown = require('woods-parsedown'),
 	phantom = require('phantom'),
-	slugg = require('slugg'), 
-  five = require("johnny-five");
+	slugg = require('slugg');
+  //five = require("johnny-five");
 
-  var board = new five.Board();
+  //var board = new five.Board();
 
 	const
 	  settings  = require('./content/settings.js'),
@@ -33,13 +33,16 @@ module.exports = function(app, io){
 	
 	io.on("connection", function(socket){
    
-    board.on("ready", function(socket) { // Call arduino board
-      console.log("--- ARDUINO READY ---- ");
+    // board.on("ready", function(socket) { // Call arduino board
+    //   console.log("--- ARDUINO READY ---- ");
       
-      // write your arduino functions here
-      arduinoJoystick();
+    //   // write your arduino functions here
+    //   arduinoJoystick();
 
-    });
+    // });
+
+    // INDEX 
+    socket.on('listConf', function (data){ onListConf(socket); });
 
     // add client in room
 		socket.on('room', function(room) {
@@ -58,7 +61,9 @@ module.exports = function(app, io){
     socket.on('changeFont', onChangeFont);
     socket.on('changeColor', onChangeColor);
     socket.on('rotateBlock', onRotateBlock);
-    socket.on('accelerate', onAccelerate);
+    socket.on('textStrokeWidth', onTextStrokeWidth);
+    socket.on('changeOpacity', onChangeOpacity);
+    //socket.on('accelerate', onAccelerate);
 
 		socket.on('generate', generatePDF);
 
@@ -66,6 +71,16 @@ module.exports = function(app, io){
     socket.on('listPDF', function(){listPDF(socket)});
 
 	});
+
+  // ----------- INDEX -------------
+  function onListConf( socket){
+    console.log( "EVENT - onListConf");
+    listAllFolders(api.getContentPath()).then(function( allFoldersData) {
+      sendEventWithContent( 'listAllFolders', allFoldersData, socket);
+    }, function(error) {
+      console.error("Failed to list folders! Error: ", error);
+    });
+  }
 
 // ------------- A R D U I N O  -------------
   function arduinoJoystick(){
@@ -412,6 +427,74 @@ module.exports = function(app, io){
     });
   }
 
+  function onTextStrokeWidth(data){
+    console.log("EVENT - onTextStrokeWidth");
+
+    var pathToRead = api.getContentPath(data.currentProject);
+    var folderMetaData = getFolderMeta( data.currentBlock, pathToRead);
+    var blockPath = path.join(data.currentProject, data.currentBlock);
+    
+    if(data.direction == "increase"){
+      var newStrokeWidth = parseFloat(folderMetaData.strokeWidth) + settings.strokeWidthStep;
+      if(newStrokeWidth > 20){
+        newStrokeWidth = 20;
+      }
+      newData = {
+        'strokeWidth': newStrokeWidth,
+      }
+    }
+    if(data.direction == "decrease"){
+      var newStrokeWidth = parseFloat(folderMetaData.strokeWidth) - settings.strokeWidthStep;
+      if(newStrokeWidth < 0){
+        newStrokeWidth = 0;
+      }
+      newData = {
+        'strokeWidth': newStrokeWidth,
+      } 
+    }
+
+    updateFolderMeta(newData, blockPath).then(function( currentDataJSON) {
+      //console.log(currentDataJSON);
+      sendEventWithContent('updateBlock', currentDataJSON, 'room', data.currentProject);
+    }, function(error) {
+      console.error("Failed to zoom the block! Error: ", error);
+    });
+  }
+
+  function onChangeOpacity(data){
+    console.log("EVENT - onChangeOpacity");
+
+    var pathToRead = api.getContentPath(data.currentProject);
+    var folderMetaData = getFolderMeta( data.currentBlock, pathToRead);
+    var blockPath = path.join(data.currentProject, data.currentBlock);
+    
+    if(data.direction == "increase"){
+      var newOpacity = parseFloat(folderMetaData.opacity) + settings.opacityStep;
+      if(newOpacity > 1){
+        newOpacity = 1;
+      }
+      newData = {
+        'opacity': newOpacity,
+      }
+    }
+    if(data.direction == "decrease"){
+      var newOpacity = parseFloat(folderMetaData.opacity) - settings.opacityStep;
+      if(newOpacity < 0){
+        newOpacity = 0;
+      }
+      newData = {
+        'opacity': newOpacity,
+      } 
+    }
+
+    updateFolderMeta(newData, blockPath).then(function( currentDataJSON) {
+      //console.log(currentDataJSON);
+      sendEventWithContent('updateBlock', currentDataJSON, 'room', data.currentProject);
+    }, function(error) {
+      console.error("Failed to zoom the block! Error: ", error);
+    });
+  }
+
  function onAccelerate(data){
     console.log("EVENT - onAccelerate");
     console.log('serverside', data);
@@ -472,7 +555,7 @@ module.exports = function(app, io){
       ph.createPage().then(function(page) {
         page.open(url)
         .then(function(){
-          page.property('paperSize', {width: widthPx, height: heightPx, orientation: 'portrait'})
+          page.property('paperSize', {width: widthPx, height: heightPx, orientation: 'portrait', margin: 30})
           .then(function() {
             return page.property('content')
             .then(function() {
@@ -548,6 +631,8 @@ module.exports = function(app, io){
       var newFont = newData.font;
       var newColor = newData.color;
       var newRotation = newData.rotation;
+      var newStrokeWidth = newData.strokeWidth;
+      var newOpacity = newData.opacity;
 
       api.readConfMeta(pathToRead).then(function(fmeta){
         if(newText != undefined)
@@ -572,6 +657,10 @@ module.exports = function(app, io){
          fmeta.color = newColor;
         if(newRotation != undefined)
          fmeta.rotation = newRotation;
+        if(newStrokeWidth != undefined)
+         fmeta.strokeWidth = newStrokeWidth;
+        if(newOpacity != undefined)
+         fmeta.opacity = newOpacity;
 
         //envoyer les changements dans le JSON du folder
         api.storeData( api.getMetaFileOfConf( pathToRead), fmeta, "update").then(function( ufmeta) {

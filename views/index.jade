@@ -2,39 +2,26 @@ doctype html
 html
   include snippets/head.jade
   
-  body(data-page='poster')
+  body(data-page='index')
 
     header
       .module--infos
-        h1 #{appName}
-      .module--interface-features
-        .zoomFunction
-          span.plusButton + 
-          span.zoom-value 50%
-          span.minusButton - 
-        .previewButton preview
-        .gridButton grid
-        .debugButton debug
+        a(href="/")
+          h1 #{appName}
 
-
-    .content-wrapper
-      #page-content.page(data-active-block= 1)
-        .page-wrapper
-          .grid.row
-            - for (var i = 0; i < 30; ++i) {
-              div.grid-el.columns
-            - }
+    .module--listePresentations
+      .dossier-list
 
     .js--templates
-      .content.--js-content-el
+      .dossier(data-nom)
+        .index
+        .dossier-inside
+          a.folder-link(href title)
+            .title
 
 
     include snippets/footer.jade
-    script(src='/js/interface-events.js')
-    script(src='/js/pj-send-events-keypress.js')
-    script(src='/js/pj-send-events.js')
-    script(src='/js/pj-receive-events.js')
-    script(src='/js/create-page.js')
-    script(src='/js/poster.js')
+    //- specific scripts
+    script(src='/js/index.js')
 
 

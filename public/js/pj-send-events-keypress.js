@@ -13,8 +13,10 @@
 		wordSpacing(code);
 		changeBlockSize(code);
 		changeFont(code);
-		changeColor(code);
+		//changeColor(code);
 		rotateBlock(code);
+		textStrokeWidth(code);
+		changeOpacity(code);
 		
 		generatePDF(code);
 
@@ -157,7 +159,8 @@
 
 // Additional functions you could use
 	function changeFont(code){
-		var fonts = ["aileron", "fira", "inknut", "nanook", "reglo", "roboto", "terminal", "vollkorn"];
+
+		var fonts = ["blocus", "bluu", "gulax", "hyperscrypt", "resistance", "roboto", "solidemirage", "sportinggrotesque", "trickster"];
 		
 		// press "n" to shuffle fonts
 		var shuffle = 110;
@@ -208,6 +211,52 @@
 
 		if(code == rotateLeft || code == rotateRight){
 			sendEvent('rotateBlock', direction);
+
+		}
+
+	}
+
+	function textStrokeWidth(code){
+
+		//press "h" to decrease text stroke width
+		var decreaseStroke = 104;
+		//press "j" to increase text stroke width
+		var increaseStroke = 106;
+		var direction;
+
+		if(code == decreaseStroke){
+			direction = "decrease";
+		}
+		
+		if(code == increaseStroke){
+			direction = "increase";
+		}
+
+		if(code == decreaseStroke || code == increaseStroke){
+			sendEvent('textStrokeWidth', direction);
+
+		}
+
+	}
+
+	function changeOpacity(code){
+
+		//press "c" to decrease opacity
+		var decreaseOp = 99;
+		//press "v" to increase opacity
+		var increaseOp = 118;
+		var direction;
+
+		if(code == decreaseOp){
+			direction = "decrease";
+		}
+		
+		if(code == increaseOp){
+			direction = "increase";
+		}
+
+		if(code == decreaseOp || code == increaseOp){
+			sendEvent('changeOpacity', direction);
 
 		}
 

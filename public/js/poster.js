@@ -88,7 +88,7 @@ function insertOrReplaceFolder( blockIndex, $folderContent) {
 function sendEvent(eventName, data){
 	var blockActive = $(".active-pj").attr('data-folder');
 	var numBlocks = $('.content').length;
-	console.log(eventName, data, currentProject, blockActive, numBlocks);
+	//console.log(eventName, data, currentProject, blockActive, numBlocks);
 	socket.emit(eventName, {
 		"currentProject" : currentProject,
 		"currentBlock" : blockActive,

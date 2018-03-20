@@ -20,7 +20,8 @@ function makeFolderContent( projectData){
 	  	'left': projectData.xPos+'cm',
 			'top':projectData.yPos+'cm',
 			'letter-spacing': projectData.wordSpace +'px', 
-			'width': projectData.blockSize + 'cm', 
+			'width': projectData.blockSize + 'cm',
+			'opacity': projectData.opacity + "%", 
 	  })
   ;
 
@@ -28,7 +29,8 @@ function makeFolderContent( projectData){
   	.html(converter.makeHtml(projectData.content))
   	.children().css({
   		'font-family': projectData.font + ", sans-serif",
-  		'color': projectData.color
+      '-webkit-text-stroke-width': projectData.strokeWidth + "px",
+  		//'color': projectData.color
   	})
   	;
 

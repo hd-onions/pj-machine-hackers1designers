@@ -9,9 +9,9 @@
     margin-left: 0%;
     background-color: #FFF;
     .page-wrapper{
-      margin: $margintop $marginleft;
-      width: $widthPage - ($marginleft * 2);
-      height: $heightPage - ($margintop * 2);
+      padding: $margintop $marginleft;
+      //width: $widthPage - ($marginleft * 2);
+      //height: $heightPage - ($margintop * 2);
       .content{
         width: auto;
         height: auto;

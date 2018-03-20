@@ -6,7 +6,9 @@ function onUpdateBlock(blockdata){
 	$element.blockSize(blockdata.blockSize);
 	$element.wordSpacing(blockdata.wordSpace);
 	$element.changeFont(blockdata.font);
-	$element.changeColor(blockdata.color);
+	//$element.changeColor(blockdata.color);
 	$element.rotateBlock(blockdata.rotation);
+	$element.textStrokeWidth(blockdata.strokeWidth);
+	$element.changeOpacity(blockdata.opacity);
 
 }

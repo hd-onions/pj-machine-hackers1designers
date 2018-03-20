@@ -43,6 +43,20 @@
       'transform': 'rotate('+rotation+'deg)',
     });
   };
+
+  $.fn.textStrokeWidth = function( strokeWidth) {
+    console.log(strokeWidth);
+    return this.children().css({
+      '-webkit-text-stroke-width': strokeWidth + "px",
+    });
+  };
+
+  $.fn.changeOpacity = function( opacity) {
+    console.log(opacity);
+    return this.css({
+      'opacity': opacity,
+    });
+  };
  
 }( jQuery ));
 

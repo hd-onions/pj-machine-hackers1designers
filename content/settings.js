@@ -25,6 +25,12 @@ var settings = {
 	// ROTATION
 	"rotationStep" : 15,
 
+	// TEXT STROKE WIDTH
+	"strokeWidthStep" : 1,
+
+	// OPACITY
+	"opacityStep" : 0.1,
+
 
 
 /* ------- Content Folder settings ------ */
