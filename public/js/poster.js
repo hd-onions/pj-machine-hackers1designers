@@ -6,7 +6,7 @@ var currentProject = app.currentProject;
 
 var converter = new showdown.Converter({'tables':true});
 
-var scale = 0.5;
+var scale = 1;
 
 
 function onSocketConnect() {

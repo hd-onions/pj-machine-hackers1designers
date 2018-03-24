@@ -64,6 +64,9 @@ header{
   padding-top: 90px;
 }
 
+body[data-page="poster"]{
+  background: #DFDFDF;
+}
 
 body.preview{
   .grid{
@@ -81,7 +84,7 @@ body.preview{
 
 // PAGE GENERATED
 .grid{
-  height: $heightPage - ($margintop * 2);
+  height: $heightPage/1.55 - (30px * 2);
   width: 100%;
   border: 1px solid #00AADA;
   display:none;

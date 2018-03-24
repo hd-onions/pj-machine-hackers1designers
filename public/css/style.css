@@ -420,6 +420,9 @@ header {
   width: 100%;
   padding-top: 90px; }
 
+body[data-page="poster"] {
+  background: #DFDFDF; }
+
 body.preview .grid {
   display: none; }
 
@@ -430,7 +433,7 @@ body.preview .page {
   overflow: hidden; }
 
 .grid {
-  height: 17cm;
+  height: 11.96089cm;
   width: 100%;
   border: 1px solid #00AADA;
   display: none; }
@@ -476,16 +479,16 @@ body[data-page="pdf"] {
         text-decoration: underline; }
 
 .content-wrapper .page {
-  width: 14.8cm;
-  height: 21cm;
+  width: 9.54839cm;
+  height: 13.54839cm;
   position: relative;
-  transform: scale(0.5);
+  transform: scale(1);
   transform-origin: 0 0;
   left: 30%;
   margin-left: 0%;
   background-color: #FFF; }
   .content-wrapper .page .page-wrapper {
-    padding: 2cm 2cm; }
+    padding: 30px 30px; }
     .content-wrapper .page .page-wrapper .content {
       width: auto;
       height: auto;

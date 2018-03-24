@@ -555,18 +555,21 @@ module.exports = function(app, io){
       ph.createPage().then(function(page) {
         page.open(url)
         .then(function(){
-          page.property('paperSize', {width: widthPx, height: heightPx, orientation: 'portrait', margin: 30})
-          .then(function() {
-            return page.property('content')
+          page.property('viewportSize', {width: "14.8cm", height: "21cm", orientation: 'portrait', margin: 30})
+          .then(function(){
+            page.property('paperSize', {width: "14.8cm", height: "21cm", orientation: 'portrait', margin: 30})
             .then(function() {
-              setTimeout(function(){
-                page.render(filePath).then(function() {
-                  console.log('success');
-                  io.sockets.in(data.currentProject).emit('pdfIsGenerated', filePath);
-                  page.close();
-                  ph.exit();
-                });
-              }, 2000)
+              return page.property('content')
+              .then(function() {
+                setTimeout(function(){
+                  page.render(filePath).then(function() {
+                    console.log('success');
+                    io.sockets.in(data.currentProject).emit('pdfIsGenerated', filePath);
+                    page.close();
+                    ph.exit();
+                  });
+                }, 2000)
+              });
             });
           });
         });
