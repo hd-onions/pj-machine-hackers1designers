@@ -10,145 +10,101 @@ opacity: 1
 ----
 
 content: 
-In 2017, Hackers & Designers followed the Peer-to-Peer Web Los Angeles event[^1] from Amsterdam. We were really happy to be able to get in touch and collaborate from a distance. We admire how Jon Kyle does such a great job in documenting and preserving his own and his peers' work.
+In 2017, Hackers & Designers followed the Peer-to-Peer Web Los Angeles event1 from Amsterdam. We were really happy to be able to get in touch and collaborate from a distance. We admire how Jon Kyle does such a great job in documenting and preserving his own and his peers' work.
 
 
-Juliette: What is your background and how did you become interested in Peer2Peer?
+**Juliette:** What is your background and how did you become interested in Peer2Peer?
 
-
-Jon: My background is totally improvised. The entry point to Peer2Peer was from a lack of an environment growing up. I was living in the Northeast of the U.S. in a very small town of 2,000 people. The town had a very bad school system, so I stopped going to school. Because there were so few people in the town, if you weren't at school, you weren't seeing any kids! But, my family was very involved with making music. So I was just hanging out at home where people would come to record music. There wasn't a set curriculum that I was following. It was totally up to whatever was interesting that day. And usually what was interesting was something I would encounter online. 
-
+**Jon-Kyle:** My background is totally improvised. The entry point to Peer2Peer was from a lack of an environment growing up. I was living in the Northeast of the U.S. in a very small town of 2,000 people. The town had a very bad school system, so I stopped going to school. Because there were so few people in the town, if you weren't at school, you weren't seeing any kids! But, my family was very involved with making music. So I was just hanging out at home where people would come to record music. There wasn't a set curriculum that I was following. It was totally up to whatever was interesting that day. And usually what was interesting was something I would encounter online. 
 
 We had a computer and internet connection very early on. I started through the music. I remember being online and viewing ‘view source’ and you see what's all this magic that's letting this thing be here. I started to play around with this pretty casually. I got bootleg copies of Photoshop and Flash from my weird uncle who does government contract. That's kind of how I got online. And because you have total anonymity online, I started to freelance when I was really young, doing things like entering design contests. The internet felt really really big. That was around 1998-2001. 
 
-
 I never went back to school, I never went to university, or anything like that. I moved to Los Angeles to work on a project called Cargo Collective. I started contributing to Cargo right after it launched and through it I got exposed to all these psychedelic questions about where the internet comes from. I didn't have any frame of reference for this. The internet was just this thing that was there but I didn't know how it got there. 
-
 
 I worked on Cargo for several years and now I'm working on Peer2Peer stuff because I'm concerned about the health of the internet ecosystem. I think about the internet almost as a park. That’s why I want to preserve it. I don't want it to be drilled for oil or something like this. I want to preserve this pristine landscape that I grew up inside of when I was a kid. It's a very naive way of looking at it, but that's the closest thing I can think of. You have this wide open space and you see big industry coming and starting to frack and it destroys the ecosystem. That's how I'm trying to think of the Peer2Peer system, just how I fit into it. Like a park.
 
 
-Juliette: Can you explain in a nutshell what Enoki[^2] is about? And who works on it? How does it differ from Torrent? 
+**Juliette:** Can you explain in a nutshell what Enoki2 is about? And who works on it? How does it differ from Torrent? 
 
-
-Jon: Enoki is an ultra-light set of tools for publishing on the Peer2Peer web. It's also an experiment. It's not so much like a microwave, where you would just press a button and your dinner is ready. It's something you need to get familiar with before you can use it.
-
+**Jon-Kyle:** Enoki is an ultra-light set of tools for publishing on the Peer2Peer web. It's also an experiment. It's not so much like a microwave, where you would just press a button and your dinner is ready. It's something you need to get familiar with before you can use it.
 
 Enoki builds up static files and you are able to use something called dat, which stands for Distributive Archive Transport. It is a protocol that was written for data scientists to be able to share huge data sets with each other. dat is very similar to how torrents work, in that it's a system of peers. There's a swarm and these sort of familiar nomenclature that torrents have but on top of it are a few things that are very handy, like versioning.
 
+One of the people who work on dat is Mathias - he goes by Mafintosh3 and does a lot of work with torrents. There were some shortcomings that torrent files had, so to help the data scientists some of these people working with torrents thought of a new protocol that extends what torrents do. 
 
-One of the people who work on dat is Mathias - he goes by Mafintosh [https://github.com/mafintosh] and does a lot of work with torrents. There were some shortcomings that torrent files had, so to help the data scientists some of these people working with torrents thought of a new protocol that extends what torrents do. 
+**Juliette:** How do you fund projects such as Enoki?
 
-
-Juliette: How do you fund projects such as Enoki?
-
-
-Jon: Oh, it's totally not funded! I approach Enoki as a tool in the same way that I would approach what I do with my domestic space. It would sound really funny to say "How do you fund your bedroom?" I wouldn't know, it's just where I am. It's my environment, that's how I relate to it. I think it's closer to what the earlier days of the internet look like with Angelfire and GeoCities. People weren't talking about funding because it was just about themselves online doing these expressions.
-
+**Jon-Kyle:** Oh, it's totally not funded! I approach Enoki as a tool in the same way that I would approach what I do with my domestic space. It would sound really funny to say "How do you fund your bedroom?" I wouldn't know, it's just where I am. It's my environment, that's how I relate to it. I think it's closer to what the earlier days of the internet look like with Angelfire and GeoCities. People weren't talking about funding because it was just about themselves online doing these expressions.
 
 I make sites as place-making, not just as informational things. I'm trying to create little environments in the same way that you could consider an installation trying to affect change in an environment. 
 
-
-Juliette: Today in the U.S. the problems around Net Neutrality are getting pretty serious. The idea of Peer2Peer and the way it is promoted has often an ideological taste, but now we see real actions taking place. It is about reclaiming control, empowerment, and countering capitalists modes of production. 
-
+**Juliette:** Today in the U.S. the problems around Net Neutrality are getting pretty serious. The idea of Peer2Peer and the way it is promoted has often an ideological taste, but now we see real actions taking place. It is about reclaiming control, empowerment, and countering capitalists modes of production. 
 
 Can you elaborate on why you think this it is important to invest in this technology and to what it can function as an alternative? Do you think decentralized models can scale up, spread out, and become more popular? What needs to happen for more makers to invest in Peer2Peer and for non-tech savvy users to gain interest?
 
-
-Jon: Obviously those networks are getting more and more entangled with our daily lives. We depend on them to stay in touch with our friends. If you're a millennial, you're dependent upon these platforms for building your followings and that's how you build your career: by having a public *networked* face and presence. 
-
+**Jon-Kyle:** Obviously those networks are getting more and more entangled with our daily lives. We depend on them to stay in touch with our friends. If you're a millennial, you're dependent upon these platforms for building your followings and that's how you build your career: by having a public *networked* face and presence. 
 
 It is a problem when that public face and presence is done on a single platform that unevenly applies a certain set of rules and incentives for how the platform grows. It's sort of like being a photographer and replacing photos in the frames at Walmart with your own photos. There's this homogenous interface and people walk down the aisles and nobody is paying attention to anything and meanwhile you're there trying to cultivate a following, a career. It feels weird. 
 
-
 The Peer2Peer thing is about making the internet personal again. On the protocol level, you're circumnavigating large corporations. It's strange to see that everybody uses Facebook because it is a very usable interface. And because everybody else is on it. Facebook provides an easy means of trying to communicate with someone else. Email is kind of nice, you can send messages but you can't have the photos aligned in the same way or a feed. You can question if those interfaces are providing a healthy experience or not. I often find myself pulling up these apps like Facebook without meaning to - these platforms are pervasive. There needs to be some sort of reference around how people use the internet. I wonder how a Facebook Church would look, for instance. When I went to Europe for the first time I got church-fatigue. But, you think that this was probably necessary to get by. People had to create this mythology of understanding and communities around these ways of thinking. There's a certain richness there. Maybe it's a very poor metaphor, but I grew up in a very religious environment and I always felt alienated by it. As I get older I realize that people were obsessed with this stuff and that was just a way for them to go on with their lives.
-
 
 We have to move technology outside of being entertainment. There's something nice about the localism that Peer2Peer expects. 
 
-
 Peer2Peer is also not trying to consume all of technology at this point. That's why I like to think of it as parks. The goal of a park is not to become a business center. It's to provide a place to retreat, where you can go and have a picnic. But you can't expect to see parks replace industry parks. It's just an entirely different thing. 
 
-
-Juliette: How do you make these parks safe? What are some strategies to sustain a Peer2Peer internet where, by definition, anybody can embrace and spread socio-political values that turn into abuse for other Peer2Peer users or website? 
-
+**Juliette:** How do you make these parks safe? What are some strategies to sustain a Peer2Peer internet where, by definition, anybody can embrace and spread socio-political values that turn into abuse for other Peer2Peer users or website? 
 
 For example, Beaker Browser lets anybody fork a website. Is there a way to fight back from of the abuse of this action, like when it is employed to trash someone’s website or Peer2Peer presence?
 
-
-Jon: Technology tries to solve a lot of technology issues with more technology and I don't think it's necessarily the good answer. The people are the ones making the technology. 
-
+**Jon-Kyle:** Technology tries to solve a lot of technology issues with more technology and I don't think it's necessarily the good answer. The people are the ones making the technology. 
 
 If you think about Peer2Peer web in the world, it's like a town square. A public space. If you are in a public space you sort of blindly trust being around strangers, but at the same time you wouldn't just leave your front door open. 
 
-
 These are less technological issues and more social issues. If you're able to fork someone's website and change all the content of it, then it's not about how we relate to the technology but how we relate to each other. The role of the Peer2Peer web is to be a person-to-person web rather than a person-to-huge-corporation kind of web. 
 
+**Juliette:** There is the general notion that everything happening on the internet is immaterial and therefore it doesn’t have any effect on our environment. Could Peer2Peer platforms contribute to creating awareness about the environmental impact of technologies?
 
-Juliette: There is the general notion that everything happening on the internet is immaterial and therefore it doesn’t have any effect on our environment. Could Peer2Peer platforms contribute to creating awareness about the environmental impact of technologies?
-
-
-Jon: The internet is just another layer in the infrastructure stack. The city has plumbing and water and other layers. The internet is not only resting on top of it all these layers, but it also is going all the way through the whole stack at the same time. What's happening right now with a lot of the cryptocurrencies is that they consume an insane amount of energy. 
-
+**Jon-Kyle:** The internet is just another layer in the infrastructure stack. The city has plumbing and water and other layers. The internet is not only resting on top of it all these layers, but it also is going all the way through the whole stack at the same time. What's happening right now with a lot of the cryptocurrencies is that they consume an insane amount of energy. 
 
 I don't think of what I do as technological criticism or something. It's much more personal. Just like when I go outside and I'm around my neighborhood, if I see a bit of trash on the street I'll stop and I'll pick it up and try to find a bin for it. How I exist on the internet is by making the things that I do accessible to other people so if they are interested they can replicate it. 
 
-
 These are all very simple ways to think about it, but we have to try to reduce some of the things that are confused as complex technology issues and make them understandable again for people. It's all about how we relate to this network. I don't care about the internet, I care about the people. The internet just happens to be this thing that everyone on the planet uses to communicate.
 
+**Juliette:** In what way could designers contribute to the growing and development of Peer2Peer?
 
-Juliette: In what way could designers contribute to the growing and development of Peer2Peer?
-
-
-Jon: Quit your jobs! We cannot let Google monopolize or monetize people's attention further. They are the ones baking the crack! 
-
+**Jon-Kyle:** Quit your jobs! We cannot let Google monopolize or monetize people's attention further. They are the ones baking the crack! 
 
 The emphasis on hyper-usability makes it difficult to trust design today. That's really sad. Design is just an extension of advertising. It's nothing new, but it's at this point where it's not just a billboard or an intermission on TV, it's in your hand constantly and it's shaping people's understanding of everything around them. 
 
-
 Anyone should make the Peer2Peer web however she wants it to be. Sure there are some technological aspects to this, but one of the things I really like about the Peer2Peer web is that it does feel like there's a community there. It can be a bit intimidating to just drop into a community, but I think that people are very eager to help and I know that some of the engineers that work on the technological side of it are desperate for help on the design side of it. If there's something that you are interested in and you think it's kind of confusing and wonder if there's a way to help, that's something to definitely open with Peer2Peer.
-
 
 I think there's a tipping point with all of this where it's difficult to use and then someone changes this one thing and it's suddenly useable. I think what Beaker is doing is fascinating but there are some issues with it too, like the forking idea - this is confusing some people.
 
+**Juliette:** Could you make an example of an existing app or use-case of how Beaker Browser manages to keep separated the data and interface layer? How is that relevant in your opinion?
 
-Juliette: Could you make an example of an existing app or use-case of how Beaker Browser manages to keep separated the data and interface layer? How is that relevant in your opinion?
-
-
-Jon: This thing called Fritter [https://github.com/beakerbrowser/fritter], which is a Twitter clone, has just been released. When you sign up for Fritter, you create a profile but the profile is something that exists on your machine. That is, you have your user data and then there is the application. When you visit the Fritter app, it requests the data from you in their interface. 
-
+**Jon-Kyle:** This thing called Fritter [https://github.com/beakerbrowser/fritter], which is a Twitter clone, has just been released. When you sign up for Fritter, you create a profile but the profile is something that exists on your machine. That is, you have your user data and then there is the application. When you visit the Fritter app, it requests the data from you in their interface. 
 
 What's nice about that is that everybody controls their own data and the app controls and updates the interface. At any point the user can also fork the interface and create their own app and interface with its own functionality. 
 
-
 There's a very distinct separation between the data layer and the interface layer here. The data layer relates to you, and the interface can be something that someone else maintains as long as there is a common taxonomy on the structure of the data. Everything is a static file with dat and Beaker. They use a bunch of json files instead of a database. It looks like the type of thing behind a large centralised platform. 
-
 
 There is another app called Rotonde [https://github.com/Rotonde/rotonde-client], which is again some sort of Twitter-esque thing. The interface is entirely different. It almost looks like command line and everything is set in monospace type. Alternatively, the Fritter example is really co-opting the design language of Twitter to make it understandable as something you can use.
 
+**Juliette:** How does Enoki fit in here? Could it be a good app example for Beaker Browser, like a build-your-own-site thing? 
 
-Juliette: How does Enoki fit in here? Could it be a good app example for Beaker Browser, like a build-your-own-site thing? 
+**Jon-Kyle:** That's the idea. When I started working on Enoki, I thought about problems related to scale in comparison to how a platform or service like this would function more traditionally. Those issues became distracting because I was trying to pair tools that go against scaling and there was a lot of friction. The past month has been spent placing those tools that were built inside of Beaker so you can build a full site.
 
+**Juliette:** You introduce Dropout on your website by explaining how you have been recently going intermittently offline - connecting for a minute to load your inbox in the morning, then going offline, then reconnecting to send them later. Can you explain a bit more about this tool that you made for yourself?
 
-Jon: That's the idea. When I started working on Enoki, I thought about problems related to scale in comparison to how a platform or service like this would function more traditionally. Those issues became distracting because I was trying to pair tools that go against scaling and there was a lot of friction. The past month has been spent placing those tools that were built inside of Beaker so you can build a full site.
-
-
-Juliette: You introduce Dropout on your website by explaining how you have been recently going intermittently offline - connecting for a minute to load your inbox in the morning, then going offline, then reconnecting to send them later. Can you explain a bit more about this tool that you made for yourself?
-
-
-Jon: Dropout as a tool is totally broken. It works perfectly for me but I don't expect it to work for anyone else. There's something fascinating about that, I want people to be able to make their own tools in a way, and build tools that make tools that make tools. Dropout is the same as Instapaper which is the same as Readability which is the same as Safari's built in "Save for later" function and there's a lot of different variations. The difference with Dropout is just that I made it! 
-
+**Jon:** Dropout as a tool is totally broken. It works perfectly for me but I don't expect it to work for anyone else. There's something fascinating about that, I want people to be able to make their own tools in a way, and build tools that make tools that make tools. Dropout is the same as Instapaper which is the same as Readability which is the same as Safari's built in "Save for later" function and there's a lot of different variations. The difference with Dropout is just that I made it! 
 
 There's something that is happening right now with functional regurgitation or platform singularities - Instagram is looking like Facebook, which is looking like Twitter, which is trying to become the next Airbnb, which is looking like Google. All these platforms are just replicating each other and trying to find shortcuts for growth. 
 
-
 What's nice with the Peer2Peer web is that it solves certain things in relation to data storage. You can really just say "I don't care about Instagram stories, I'm just gonna make my own Instagram story and it's gonna be my page" and it can work for you. 
-
 
 It's related to networked localism. What does a neighborhood on the internet look like? How does that exist relative to these things that are more corporate like Instagram? I don't think you're gonna get rid of Instagram as a photographer, but I think you should be trying to use the Peer2Peer web in parallel and consider how you're positioned within the environment of the internet. 
 
-
-When I go to the desert I just dropout. There's no cell connection. Joshua Tree is a national park and acts as a parallel to the internet in the same way that parks relate to it. I'm tired of feeling that when I'm on the internet I'm at the Walmart, these places that have commoditized so many parts that neighborhoods used to have before.You can't go and deconstruct the Walmart down the street. But, it seems like the internet is at this point where it's very malleable and you can put into effect really disproportionate change.
+When I go to the desert I just dropout. There's no cell connection. Joshua Tree is a national park and acts as a parallel to the internet in the same way that parks relate to it. I'm tired of feeling that when I'm on the internet I'm at the Walmart, these places that have commoditized so many parts that neighborhoods used to have before. You can't go and deconstruct the Walmart down the street. But, it seems like the internet is at this point where it's very malleable and you can put into effect really disproportionate change.
 
 
 

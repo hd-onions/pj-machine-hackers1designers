@@ -10,7 +10,7 @@ opacity: 1
 ----
 
 content: 
-** Intro **
+**Intro**
 
 This article shares the development of the H&D website and describes its new and expanded functionalities. It is addressed to readers already familiar with coding, as well as anyone interested in learning about using Mediawiki as an infrastructure, H&D's work process, and our approach to making and breaking things. The new website reflects the diversity of the H&D activities and proposes an online space for workshopping and a growing archive.
 
@@ -21,7 +21,7 @@ The H&D website runs on a Mediawiki installation. This is the same software on w
 Providing the wiki content through a frontend website allows users to easily and quickly access a large amount of information. This is in comparison to having to move through the wiki’s idiosyncratic backend navigation architecture, which is more of a search tool than a navigation bar. Still, wiki’s architecture is interesting and enables a rethinking of web design, dominant backend systems, and their imposed structures.
 
 
-** Hierarchy & Structure **
+**Hierarchy & Structure**
 
 I spent quite some time getting a sense of how this wiki had been shaped over the previous three years of its existence when I began to work on the new version of H&D website. Wikis often promote a flat hierarchy, such as linking and backlinking between pages. H&D’s wiki makes use of that approach while ignoring all those red links that are automatically created when a page does not yet exist. Everything requires to be linked and needs to exist as a page. This process promotes a flat ontology for each piece of data.
 
@@ -42,23 +42,26 @@ After three years of usage, it was the perfect time to review H&D’s wiki struc
 
 
 
-** Toolkit & Front-End **
+**Toolkit & Front-End**
 
 The frontend runs as a Python app. I never wrote Python before, but the language turned out to be part of H&D’s practice, so I just went for it. I opted to avoid frameworks and forced myself to learn almost everything necessary to make a website from scratch. I started with CGI and then embraced Python’s WSGI.
 
 
-** Concepts **
+**Concepts**
 
 One of the bigger challenges was how to create a proper navigation menu.
 
+
 The wiki lies on a flat surface, linking articles between each other. While the wiki gives access to special search and filter pages where you can look at all the pages with particular categories, templates, properties, etc., there is no way to fetch that view through `json.` 
 
+
 As I expected, Semantic Mediawiki has an option to create collections of pages with common metadata elements. For example, it gave the option to find and group together all pages within a date range AND with x, y, z properties but NOT with a, b, c properties.
+
 
 This feature is called Concepts. It was the smartest way I found to let editors define site sections directly from the wiki. These sections would then be fetched as navigation links on the frontend. This avoided the need to set up hard-coded navigation items. As such, it keeps a fluid control of the content in the frontend from and through the wiki.
 
 
-** Tools **
+**Tools**
 
 A tool that I used extensively for building the frontend was BeautifulSoup. At its core, BeautifulSoup is a web-scraper plugin. In the case of building the wiki, I exploited it as a fine-grain filter tool to clean up undesired `html` tags fetched by each `json` call. It worked magnificently, providing a very detailed level of control. This fine control made it much easier to add atomic `css` classes to all `html` tags, thus forming a template. Because Mediawiki outputs so much wrapping `divs,` though, I felt obliged to get rid of them from the final template. I still wonder why this happens. It could be a problem of historical heritage due to maintaining a big and old framework that’s being modernised over time, or maybe Mediawiki developers just fell into the div wormhole and never got out.
 
@@ -66,14 +69,16 @@ A tool that I used extensively for building the frontend was BeautifulSoup. At i
 Using Python instead of, say, Javascript, felt like a better choice for this project mostly because it helped me to dive into data structures. It was my first time making a restful API app. Although `json` exists because of Javascript, Python feels conceptually more aligned when learning programming and working with datasets. As Python suggests, use `try` and see what happens (`except`) instead of assuming that some particular data might be in there by using `if` this exist (`else`...). It is a different mindset that I appreciated and learned to adopt over the three months of the project.
 
 
-** Some Thoughts on Working with the Wiki **
+**Some Thoughts on Working with the Wiki**
 
 Because of H&D’s activities and structure, the wiki has a lot of potential in the workshopping context. When needed, a hundred new users can sign up and make use of the space to document, draft, write, and edit content, all at the same time and without a fuss.
 
 
 The frontend, conversely, becomes an easier place to access and check for upcoming events, as well as for browsing through the wiki content in a focused and well-presented manner. The H&D website becomes both a workshop AND a library.
 
-** Repository **
+
+**Repository**
+
 
 → All the inner workings can be found on the github repo: https://github.com/hackersanddesigners/had-py 
 

@@ -12,33 +12,375 @@ As Hackers & Designers bridges disciplines and cultures, we are always looking f
 The starting point for developing a program around the notion of *getting prepped* came about during quite a cliche outdoor experience in California. Cutting costs via camping but not being particularly outdoor-types, we were confronted by our lack of survival skills. This experience spurred some of the following reasons to go off the grid (in no particular order):
 
 
-*To practice independence
-*To self control
-*To detect alternatives
-*To research alternatives
-*To use alternatives
-*To train consciousness
-*To become comfortable in less comfortable environments
-*To change the pace
-*To count our blessings
-*To save money
-*To spend money
-*To break free from money
-*To be agile
-*To meet like-minded people
-*To eat differently
-*To spark curiosity
-*To be assertive
-*To be responsive
-*To change perspective
-*To be free
-*To be flexible
+
+– To practice independence
+
+– To self control
+
+– To detect alternatives
+
+– To research alternatives
+
+– To use alternatives
+
+– To train consciousness
+
+– To change the pace
+
+– To count our blessings
+
+– To save money
+
+– To spend money
+
+– To break free from money
+
+– To be agile
+
+– To meet like-minded people
+
+– To eat differently
+
+– To spark curiosity
+
+– To be assertive
+
+– To be responsive
+
+– To change perspective
+
+– To be free
+
+– To be flexible
+
 
 
 As a result of the efforts to consciously and critically connect and disconnect, H&D has started questioning some of its own habits as an organization including micro-economies and dependencies. H&D is yet another organization engaging in now-arcane processes, such as writing long funding applications. More developed means of communication have resulted in the perception of H&D as a professionalized or institutionalized collective. H&D is often approached as if it has structural means and steady staff. Furthermore, H&D is expected to grow as an organization. But, what do we want H&D to actually grow into? Is H&D trying to be an educational institution, an agency, a think-tank? And what are the consequences? 
 
 
 This collection of texts addresses the often conflicting routes that influence the questions, actions, and future structure of Hackers & Designers. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6360,7 +6702,7 @@ wordSpace: 0
 
 ----
 
-blockSize: 8
+blockSize: 13
 
 ----
 
@@ -6368,7 +6710,7 @@ filesNb: 1
 
 ----
 
-font: gulax
+font: sportinggrotesque
 
 ----
 

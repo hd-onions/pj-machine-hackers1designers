@@ -9,7 +9,7 @@ opacity: 1
 
 ----
 content: 
-** Why and How to Bring Touch Back to our Daily Experience ** 
+**Why and How to Bring Touch Back to our Daily Experience** 
 
 
 For the last few decades, developments in digital technology have much neglected our hands and bodies. This is a problem because our thoughts and feelings are strongly connected to the gestures, postures, and actions that our hands and bodies perform. 
@@ -18,15 +18,15 @@ For the last few decades, developments in digital technology have much neglected
 This article discusses the importance of a sense of touch in the current era where physical and digital realities collide. It outlines the differences between carrying activities out in physical and digital worlds that are dominated by screens. The article provides insight into how to design for touch through examples from the design field. It aims to push designers outside of the screen-zone and encourages the consideration of touch and motor skills when designing products.
 
 
-** Less Haptic Stimuli, Less Experience ** 
+**Less Haptic Stimuli, Less Experience** 
 
 According to Finnish neurophysiologist Matti Bergström, 
 
 
-> The density of nerve endings in our fingertips is enormous. Their discrimination is almost as good as that of our eyes. If we don’t use our fingers during childhood or youth, we become “fingerblind,” this rich network of nerves is impoverished – which represents a huge loss to the brain and thwarts the individual's development as a whole. Such damage may be likened to blindness itself. Perhaps worse, while a blind person may simply not be able to find this or that object, the fingerblind cannot understand its inner meaning and value.[^1]
+> The density of nerve endings in our fingertips is enormous. Their discrimination is almost as good as that of our eyes. If we don’t use our fingers during childhood or youth, we become “fingerblind,” this rich network of nerves is impoverished – which represents a huge loss to the brain and thwarts the individual's development as a whole. Such damage may be likened to blindness itself. Perhaps worse, while a blind person may simply not be able to find this or that object, the fingerblind cannot understand its inner meaning and value.1
 
 
-** Hold, Push, Swipe, Tap ** 
+**Hold, Push, Swipe, Tap** 
 
 Many employees spend a significant part of their day looking at a screen without any possibility to physically touch the things they work with. Think about it - how much time do  you spend on your computer at work? How much time do you spend on your mobile afterwards? What do you do during your spare time? Hold, push, swipe, tap. 
 The word touch is contained in the word touchscreen. But, tapping and swiping a cold flat piece of one matter basically neglect the sense of touch. You are capable of experiencing only a fraction of what your sense of touch allows you during the long hours of manipulation with touchscreens. 
@@ -35,13 +35,13 @@ The word touch is contained in the word touchscreen. But, tapping and swiping a 
 What actions do you physically perform with your body? For a dispassionate observer, you don’t look like a very active person. What posture are you usually in? What kind of impact can crouching into the screen of a mobile phone and hovering over a computer all day have on a person? 
 
 
-Pablo Briñol, Richard E. Petty, and Benjamin Wagner claim in their research article *Body posture effects on self-evaluation: A self-validation approach* that your body posture can shape your mind: “We argue that any postures associated with confidence (e.g., pushing one’s chest out) should magnify the effect of anything that is currently available in people’s minds relative to postures associated with doubt (e.g., slouching forward with one’s back curved).”[^2] As the embodied cognition theory emphasizes, your body also affects your behavior.[^3] 
+Pablo Briñol, Richard E. Petty, and Benjamin Wagner claim in their research article *Body posture effects on self-evaluation: A self-validation approach* that your body posture can shape your mind: “We argue that any postures associated with confidence (e.g., pushing one’s chest out) should magnify the effect of anything that is currently available in people’s minds relative to postures associated with doubt (e.g., slouching forward with one’s back curved).”2 As the embodied cognition theory emphasizes, your body also affects your behavior.3 
 
 
-** Tactile Feedback ** 
+**Tactile Feedback** 
 
 
-Many tangible things are disappearing from our surroundings and reappearing in digital form. They are improved upon and enriched with new functions that are not possible in the material world. Some examples are maps, calendars, notebooks, pens, photographs, music players, calculators, and compasses. However, with the loss of material form comes the loss of the experience exclusive to the physical interaction with such objects. In his book *Where the Action is: The Foundations of Embodied Interaction*, Paul Dourish states that “… a disembodied brain could not experience the world in the same ways that we do, because our experience of the world is intimately tied to the ways in which we act in it.”[^4]
+Many tangible things are disappearing from our surroundings and reappearing in digital form. They are improved upon and enriched with new functions that are not possible in the material world. Some examples are maps, calendars, notebooks, pens, photographs, music players, calculators, and compasses. However, with the loss of material form comes the loss of the experience exclusive to the physical interaction with such objects. In his book *Where the Action is: The Foundations of Embodied Interaction*, Paul Dourish states that “… a disembodied brain could not experience the world in the same ways that we do, because our experience of the world is intimately tied to the ways in which we act in it.”4
 
 
 ![alt](/data/21-Lucia/3/1.jpg)
@@ -49,7 +49,7 @@ Many tangible things are disappearing from our surroundings and reappearing in d
 Fingers are able to sense the progress of a book (Image by NordWood Themes, https://unsplash.com/@nordwood)
 
 
-** Different Activities, Different Movements **
+**Different Activities, Different Movements**
 
 
 In the physical world...
@@ -87,8 +87,8 @@ The environment that surrounds us, the activities we perform, and things we are 
 As so many different activities are being carried out in the same manner in the digital world, their unique experience become less clear. Haptic sense relates to perception when paying with material or by virtual currency. That feeling of something tangible in your hand that you give to someone else is different than tapping a flat surface to confirm that the number on the screen will be deducted from your account. 
 
 
-Try a simple task. If you want to remember something, write it down and see how it affects your brain. Professor Anne Mangen, based at The University of Stavanger in Norway, researches the impact of digital technologies on reading and writing. As described in her article *Handwriting versus Keyboard Writing: Effect on Word Recall*, one of her studies has proven that writing helps the brain process the information and remember it better.[^5] 
-This may be one reason for the recent rise in sales of paper planners and paper books.[^6] Think about it - giving a digital book as a gift is much less impressive than giving its paper version. Physical gifts just *feel* much better to give and receive. According to The Guardian, there is a trend for returning to tangible music, which has caused an increase in vinyl sales as well.[^7] But, are such returns to old material media objects enough to satisfy the need for haptic interactions and experiences? Or, can we act also from contemporary opportunities in order to create a more embodied future? 
+Try a simple task. If you want to remember something, write it down and see how it affects your brain. Professor Anne Mangen, based at The University of Stavanger in Norway, researches the impact of digital technologies on reading and writing. As described in her article *Handwriting versus Keyboard Writing: Effect on Word Recall*, one of her studies has proven that writing helps the brain process the information and remember it better.5 
+This may be one reason for the recent rise in sales of paper planners and paper books.6 Think about it - giving a digital book as a gift is much less impressive than giving its paper version. Physical gifts just *feel* much better to give and receive. According to The Guardian, there is a trend for returning to tangible music, which has caused an increase in vinyl sales as well.7 But, are such returns to old material media objects enough to satisfy the need for haptic interactions and experiences? Or, can we act also from contemporary opportunities in order to create a more embodied future? 
 
 
 One way to bring qualities of the real world to our technologies of daily use is to learn from material things. Another way is to sense the attributes we are missing in interaction with screens. Let your senses lead you and think about the solution that could replace current discomfort. The classic human-centered approach still works. However advanced technologies improve and extend into multiple areas of our lives, we need to think more carefully about what it means to be a human. Our bodies and senses are definitely part of it.
@@ -96,7 +96,7 @@ One way to bring qualities of the real world to our technologies of daily use is
 
 
 
-** Lucia about her experience at the H&D Summer Academy: ** 
+**Lucia about her experience at the H&D Summer Academy:** 
 
 
 I learned that unplugging my laptop charger when the computer is charged can save energy and money. The Summer Academy made me more sensitive to my environment in general. I am aware that every action has an impact, whether or not it includes technology.

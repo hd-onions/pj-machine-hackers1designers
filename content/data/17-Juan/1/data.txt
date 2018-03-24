@@ -1,13 +1,6 @@
 path: content/data/blocks/1
 
 ----
-strokeWidth: 0
-
-----
-
-opacity: 1
-
-----
 
 content: # How Violent Can Design Be?
 
@@ -4920,6 +4913,67 @@ content: # How Violent Can Design Be?
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
+strokeWidth: 0
+
+----
+
+opacity: 1
+
 ----
 
 index: 1
@@ -4950,7 +5004,7 @@ filesNb: 1
 
 ----
 
-font: fira
+font: trickster
 
 ----
 

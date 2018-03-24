@@ -10,9 +10,9 @@ opacity: 1
 ----
 
 content: 
-[^1] For those who want to learn more about wiki editing and mark-up, a wiki tutorial may be found here: https://hackersanddesigners.nl/s/Projects/p/Wiki_Tutorial
+1 For those who want to learn more about wiki editing and mark-up, a wiki tutorial may be found here: https://hackersanddesigners.nl/s/Projects/p/Wiki_Tutorial
 
-[^2] More about restful can be found here: https://en.wikipedia.org/wiki/Representational_state_transfer
+2 More about restful can be found here: https://en.wikipedia.org/wiki/Representational_state_transfer
 
 
 

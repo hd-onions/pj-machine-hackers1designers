@@ -8,14 +8,26 @@ strokeWidth: 0
 opacity: 1
 
 ----
-content: Hackers & Designers has been seeking to challenge organizational concepts by asking questions such as: how can we share differently, what channels can we eliminate, what are the bare necessities?
+content: 
+**A dear thank you to all participants:** 
+
+Arjan AdriaanseJames AspeyLoes BogersMichaela BüsseWilliam EckersteinAbel ElkaarJuan GomezMeike HardtKimberley HalsallChya HsuHannes HulstaertLucia KolesárováAmanda LewisDijon LinJasper van LoenenCyrus LongonnéKris MaddenJannete MarkKonstantin MitrokhovDorian de RijkDaniela RotaLacey VerhalenSijing ZhangEric van Zuilen
 
 
-As a result of the past year’s explorations, experiences, and challenges, James proposed to deprofessionalize Hackers & Designers. Starting as a mini-manifesto, he turned his provocative proposal into a concrete cooperative model at the beginning of 2018. The Hackers & Designers Coop is a workflow model for *collaborative organization based on fiscal democracy* and divides and distributes responsibilities among members. The H&D Coop is a hands on exploration of blockchain technologies, leveraging smart contracts as a means to automate tedious processes of administration and tiring assemblies.
-The administrative overhead had been carried around as an awkward baggage for too long. With the Coop platform running on H&D’s private blockchain, H&D gets to experiment with a somewhat popularized and mystified technology in a critical way while experimenting with its own organizational structures and habits.
+**Many thanks to all the workshop tutors and speakers:**
+
+The Things NetworkGottfried HaiderSarah GarcinSjef van GaalenThe Center for Genomic GastronomyDennis de BelBongani Ricky Monsuku
 
 
-More about the Hackers & Designers Coop here: https://wiki.hackersanddesigners.nl/index.php/Hackers_%26_Designers_Coop
+**And all the collaborators and volunteers:**
+
+Jorge Bakker
+Andre Fincato
+Anja GrotenJames Bryan GravesSelby Gildemacher
+Michaela LakovaMargarita OsipianVicky de VisserKarina Zavidova
+André Avelãs
+
+
 
 
 
