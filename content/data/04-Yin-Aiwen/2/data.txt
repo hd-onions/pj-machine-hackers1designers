@@ -10,7 +10,7 @@ opacity: 1
 ----
 
 content: 
-## By Yin Aiwen[^1] & Phi team[^2]
+## By Yin Aiwen 1 & Phi team 2
 
 
 

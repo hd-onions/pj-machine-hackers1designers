@@ -9,7 +9,7 @@ opacity: 1
 
 ----
 
-content: ## Interview with Jon Kyle by Juliette Lizotte, designer and member of Hackers & Designers
+content: ## Interview with Jon-Kyle Mohr by Juliette Lizotte, designer and member of Hackers & Designers
 
 
 

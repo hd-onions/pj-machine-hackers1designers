@@ -10,7 +10,7 @@ opacity: 1
 ----
 content: 
 
-In the current digital era, being on the grid has become our default position. Being connected allows technology to provide immediate knowledge, instant solutions, and new ways to communicate and participate. In his book *To Save Everything, Click Here: Technology, Solutionism, and the Urge to Fix Problems that Don’t Exist*, writer and researcher Evgeny Morozov argues that technology has pushed us into a state of a single and simple logic. According to Morozov, technology, besides being a force for improvement, has also created *solutionism*: that is, our need to fix everything and the belief that we can do so by using technology.[^1] 
+In the current digital era, being on the grid has become our default position. Being connected allows technology to provide immediate knowledge, instant solutions, and new ways to communicate and participate. In his book *To Save Everything, Click Here: Technology, Solutionism, and the Urge to Fix Problems that Don’t Exist*, writer and researcher Evgeny Morozov argues that technology has pushed us into a state of a single and simple logic. According to Morozov, technology, besides being a force for improvement, has also created *solutionism*: that is, our need to fix everything and the belief that we can do so by using technology.1 
 
 
 Morozov is critical of this development of solutionism. He urges us to investigate the struggle between the human and the machine. This is crucial because technology creates problems as much as is it creates solutions. 

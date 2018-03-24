@@ -15,7 +15,7 @@ content: Bongani Ricky Masuku is a Zimbabwean inventor and runs Rera Digital, a 
 We asked Bongani to expand upon his background, project, and hopes for its development. 
 
 
-*Bongani:* I’m the founder of Rera Digital, where we aim to ease the burden of feeding chickens and offer better tracking and monitoring of feeding activity with an integrated mobile app.
+**Bongani:** I’m the founder of Rera Digital, where we aim to ease the burden of feeding chickens and offer better tracking and monitoring of feeding activity with an integrated mobile app.
 
 
 Feeding costs contribute to approximately 60-70% of the overall production of cost-per-chicken raised. Farmers tend to spend a lot of time on frequent fowl run visits in order to inspect the chickens and check on stock feed levels. This is due to the varying appetites of chickens, which are determined by age, number of chickens around them, and weather conditions. During batch progress, the farmer refills a 200kg stock feed storage unit. 

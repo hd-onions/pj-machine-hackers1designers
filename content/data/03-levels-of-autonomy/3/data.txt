@@ -36,7 +36,7 @@ First, let’s review the 5 levels of Autonomy that are listed on the Autonomous
 * Level 2: The Driver is obliged to detect objects and events and respond if the Automated System fails to properly respond. The Automated System executes accelerating, braking, and steering. The Automated System can deactivate immediately upon takeover by the Driver.
 * Level 3: Within known and limited environments (such as freeways), the Driver can safely turn their attention away from driving tasks but must still be prepared to take control when needed.
 * Level 4: The Automated System can control the vehicle in all but a few environments, such as severe weather. The Driver may enable the Automated System only when it is safe. When enabled, the Driver's attention is not required.
-* Level 5: Other than setting the destination and starting the system, no human intervention is required. The Automated System can drive to any location where it is legal to drive and make its own decision.[^1]
+* Level 5: Other than setting the destination and starting the system, no human intervention is required. The Automated System can drive to any location where it is legal to drive and make its own decision.1
 
 
 When talking about self-driving cars, the conversation easily shifts to the moral and ethical decisions because cars will have to make them. MIT addresses a range of moral decisions for autonomous cars on its platform *Moral Machine*.
@@ -45,10 +45,10 @@ When talking about self-driving cars, the conversation easily shifts to the mora
 A common example is one that Australian roboticist Rodney Brooks brings up in his blog post *Unexpected Consequences of Self-Driving Cars*: 
 
 
-> When the brakes suddenly fail should the car swerve to miss a bunch of babies in strollers and instead hit a gaggle of little old ladies? Which group should the car decide to kill and which to save, and who is responsible for writing the code that makes these life and death decisions?[^2]
+> When the brakes suddenly fail should the car swerve to miss a bunch of babies in strollers and instead hit a gaggle of little old ladies? Which group should the car decide to kill and which to save, and who is responsible for writing the code that makes these life and death decisions?2
 
 
-Such moral dilemmas are disturbing as there are no easy answers. If we humans are unable to make a consensus to such questions, how can we expect ourselves to implement a legal standard for how cars should harm babies or old ladies?[^3]
+Such moral dilemmas are disturbing as there are no easy answers. If we humans are unable to make a consensus to such questions, how can we expect ourselves to implement a legal standard for how cars should harm babies or old ladies?3
 
 
 Infrastructural change also becomes an issue when thinking of a self-driving future.
@@ -58,22 +58,24 @@ Let’s imagine that at some point we all shift to electric cars. We will all ne
 Workshop participants have included students, makers, artists, people from Rijkswaterstaat, and other government employers who are privately interested in this subject or who wanted to get into electronics and building things. The workshops and hack events bring up contrasting opinions that demonstrate the range of perspectives around the topic and the necessity of pushing the discussion further. 
 
 
-The fact the discussion is happening on a governmental level is very important. It is even more important that people like us (i.e., citizens) also take part in the conversation, voice our opinions, and give feedback to be able to influence the research, which is mostly based on information from government reports and from the industry. Hacking toy cars is a first step into reflection and engaging with the topic. While offering a DIY and hands-on approach to critical exploration, we aim to offer access and possibilities to participation rather than awaiting and undergoing. By only proposing a few lines of simple code you get an idea of how a machine perceives the world, which is much more abstract than the way humans look at the world.[^4]
+The fact the discussion is happening on a governmental level is very important. It is even more important that people like us (i.e., citizens) also take part in the conversation, voice our opinions, and give feedback to be able to influence the research, which is mostly based on information from government reports and from the industry. Hacking toy cars is a first step into reflection and engaging with the topic. While offering a DIY and hands-on approach to critical exploration, we aim to offer access and possibilities to participation rather than awaiting and undergoing. By only proposing a few lines of simple code you get an idea of how a machine perceives the world, which is much more abstract than the way humans look at the world.4
 
 
 Workshops start with each participant getting a toy car in a box, popping them open, and cutting the wires. We take the car apart enough to add our own parts. There are a lot of interesting things to discover when you have never done something like that before. Real hacking! 
 
 
-The initial code is very simple: the car’s sensor can see shades of grey. When the sensor measures a value that is too dark, it reads that it is too far off to one side and the car corrects itself. The car does the reverse process of correction when it measures a value that is too light. It swerves![^5]
+The initial code is very simple: the car’s sensor can see shades of grey. When the sensor measures a value that is too dark, it reads that it is too far off to one side and the car corrects itself. The car does the reverse process of correction when it measures a value that is too light. It swerves!5
 
 
 Some people find the premise of being able to implement their own code into a self-driving car to be dangerous and unsafe. The level of access could, however, become a very important game changer. As we are sharing an environment with such cars, shouldn't we have some level of control of what goes inside of them? If commercial parties continue to control implementations of self-driving cars, we will be surrendering to the profit motives of capitalist power. This is not only problematic in terms of ethics and morality, but also short-sites the potential of technologies. Big data companies are getting even more powerful, which is starting to become (really) scary. We – as citizens – need to find ways to keep technologies in our hands.
 
 
-Some scenarios articulate dangers of self-driving cars by imagining the possibilities of cyber attacks. It would be quite terrifying if car users cannot access their car’s code because Facebook or Google wrote it. Users should be able to inspect the technology they use, find bugs, and develop solutions that better their use. If Google owns the software of all the cars in the world, we have no way to know if it’s safe or not, if it can be hacked or not, if its enacting decisions that reflect the beliefs of those using it - not just decisions that maximize profits and further the global oligarchical stronghold of data.[^6]
+Some scenarios articulate dangers of self-driving cars by imagining the possibilities of cyber attacks. It would be quite terrifying if car users cannot access their car’s code because Facebook or Google wrote it. Users should be able to inspect the technology they use, find bugs, and develop solutions that better their use. If Google owns the software of all the cars in the world, we have no way to know if it’s safe or not, if it can be hacked or not, if its enacting decisions that reflect the beliefs of those using it - not just decisions that maximize profits and further the global oligarchical stronghold of data.6
 
 
-The stake of the tech industry in self-driving cars is crucial to address. Users of the product are not central, the stockholders are. We have seen some very negative side effects in the development of the tech industry due to this prioritization. As mentioned in John Naughton’s recent article in The Guardian *How a half-educated tech elite delivered us into chaos*, Facebook or Twitter built advertising engines without considering or caring about its possible misuse, such as pushing ideologically-charged content to targeted potential voters.[^7]
+The stake of the tech industry in self-driving cars is crucial to address. Users of the product are not central, the stockholders are. We have seen some very negative side effects in the development of the tech industry due to this prioritization. As mentioned in John Naughton’s recent article in The Guardian *How a half-educated tech elite delivered us into chaos*, Facebook or Twitter built advertising engines without considering or caring about its possible misuse, such as pushing ideologically-charged content to targeted potential voters.7
+
+
 While these new technologies are black boxes, one can only guess what is going on inside and whether it is in the interest of the public. It is urgent to develop an understanding of what is going on inside these black boxes before they start driving around.
 
 

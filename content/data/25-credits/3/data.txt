@@ -8,14 +8,50 @@ strokeWidth: 0
 opacity: 1
 
 ----
-content: Here credits
+content:On & Off the Grid               
+Published by Hackers & Designers                  
+2018, Amsterdam               
 
+**Design**                   
+Anja Groten and Juliette Lizotte using the PJ Machine by Sarah Garcin.            
 
+**The PJ Machine, Sarah Garcin**                
+Nowadays, the free software movement and the diversity of open source tools encourage designers, artists and developers to question the nature of the tool they are using and its place in their creative process. They are invited to learn, modify and create their own tools. Creating tools forms an integral part in the work of a graphic designer. The tool shapes the work. Can we imagine new kinds of publishing tools that change the way we present our works, create printed matter and more? 
+Sarah Garcin tries to answer this question, by creating the PJ Machine (Publishing Jockey Machine), a box with arcade buttons to control web interface for live publishing. The Machine allows to create layout design with text and images, and generate a pdf to print.
+The participants of HDSA2017 were invited to imagine and prototype new and open source publishing tool. The tools created there offered new kinds of interactions and revolutionized the publication process. 
 
+**Images**               
+All photos were taken during the Summer Academy 2017 by Jorge Bakker unless specified differently.
 
+**Typefaces**            
+Libre and open source typefaces from Velvetyne Type Foundry             
+Bilbo by Hélène Marian Srodogora               
+Trickster and Bluu Next by Jean-Baptiste Morizot                
+Hyper Scrypt and Solide Mirage by Jérémy Landes                
+Sporting Grotesque by Lucas Le Bihan                   
+Résistance by A collective                 
+Gulax by Morgan Gilbert               
+Fengardo Neue by Loïc Sander           
+Blocus by Martin Desinde                
 
+**Printing**                
+Stencilzolder, Amsterdam                
+Cover silkscreen by Wyber Zeefdruk, Amsterdam
 
+**Binding**                
+Hennink, Amsterdam                   
 
+**Editing**                   
+Anja Groten and Juliette Lizotte
+ 
+**Copyediting**                        
+Genevieve Costello 
+
+**Coordination**                
+Juliette Lizotte       
+
+**Supported by**           
+![alt](/data/25-credits/3/Supports.jpg)
 
 
 

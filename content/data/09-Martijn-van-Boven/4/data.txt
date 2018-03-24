@@ -9,12 +9,11 @@ opacity: 1
 
 ----
 content: 
-[^1]
-*Smart contract*. (2018). *En.wikipedia.org*. https://en.wikipedia.org/wiki/Smart_contract
+1 *Smart contract*. (2018). *En.wikipedia.org*. https://en.wikipedia.org/wiki/Smart_contract
 
-[^2] This documentary may be viewed here: https://www.youtube.com/watch?v=YEKRAn-ZleM&feature=youtu.be
+2 This documentary may be viewed here: https://www.youtube.com/watch?v=YEKRAn-ZleM&feature=youtu.be
 
-[^3] This video may be viewed here: https://www.youtube.com/watch?v=PmO0g8jTxN8&feature=youtu.be
+3 This video may be viewed here: https://www.youtube.com/watch?v=PmO0g8jTxN8&feature=youtu.be
 
 
 

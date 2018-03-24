@@ -20,15 +20,15 @@ Circulation of Circuits [www.circulationofcircuits.net] is a research-driven ini
 Using hardware to prototype a new digital currency, the workshop focused on the embedding of value into a physical object – the Raspberry Pi. The first part was dedicated to the idea of a smart contract and the current debates within this topic. The second part was more practical and concerned with developing different ways to upload and store value on the Raspberry Pi. 
 
  
-** Assigning the Value through Digital Manipulation **
+**Assigning the Value through Digital Manipulation**
  
 During the first part of the workshop, Martijn van Boven introduced the initiative's research on the potentiality of European financial systems to centralize. As well, he explained the distance between the value assigned at the stock market and the value of a bank note for people to use. The latter form of value in customized currencies is interesting because it does not relate to the physical properties of the signifying object. Similarly, a customized digital currency functions if users of the currency agree on the conditions of its circulation: this is called a smart contract. Wikipedia defines smart contracts as 
 
 
-> ...computer protocols that facilitate, verify, or enforce the negotiation or performance of a contract, or that make a contractual clause unnecessary. Smart contracts often emulate the logic of contractual clauses. Proponents of smart contracts claim that many kinds of contractual clauses may thus be made partially or fully self-executing, self-enforcing, or both. Smart contracts aim to provide security superior to traditional contract law and to reduce other transaction costs associated with contracting.[^1]
+> ...computer protocols that facilitate, verify, or enforce the negotiation or performance of a contract, or that make a contractual clause unnecessary. Smart contracts often emulate the logic of contractual clauses. Proponents of smart contracts claim that many kinds of contractual clauses may thus be made partially or fully self-executing, self-enforcing, or both. Smart contracts aim to provide security superior to traditional contract law and to reduce other transaction costs associated with contracting.1
  
  
-Speaking about assigned value, the documentary *Scratch* covers the subjects of digging – that is, the searching for forgotten (de-valuated) vinyl to use in your own practice, giving it a new value.[^2]
+Speaking about assigned value, the documentary *Scratch* covers the subjects of digging – that is, the searching for forgotten (de-valuated) vinyl to use in your own practice, giving it a new value.2
 
 
 Another documentary *YAP (MICRONESIA), its incredible STONE MONEY (RAI), Pacific Ocean*, tells about different types of value in objects. Large, heavy, and stationary, these currency objects are the opposite of coins or banknotes.[^3]
@@ -46,7 +46,7 @@ In another discussion, some of the participants suggested that the content shoul
 Trust is another inescapable concern in exchanging digital files. Some workshop participants were willing to trust others to view everything on their device. This approach surfaces the question of how personal information and files on a smartphone may be *used*, rather than just viewed. Defining and limiting the ability to share files and use for impersonation of the device owner are critical concerns in a smart contract.  
  
  
-** Assigning the Value through Hardware and its Physical Limitations **
+**Assigning the Value through Hardware and its Physical Limitations**
  
 Following up on the discussion, the workshop participants implemented some of the discussed functionalities and limitations of Raspberry Pis. 
 

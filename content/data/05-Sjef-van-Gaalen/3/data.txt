@@ -9,11 +9,11 @@ opacity: 1
 
 ----
 
-content: 
-During the Camouflage Creation workshop, designer and researcher Sjef van Gaalen presented his recent project, *The National Algorithm*. The project researches the history of camouflage patterns and its modern use and leads to a visual outcome in the form of a pattern meant for a particular situation. Sjef's camouflage pattern ironically reflects on the tradition of wearing orange during King’s Day in the Netherlands. This research studies belongingness by exploring the balance between the desire to blend in and the need to stand out.
+content: During the Camouflage Creation workshop, designer and researcher Sjef van Gaalen presented his recent project, *The National Algorithm*. The project researches the history of camouflage patterns and its modern use and leads to a visual outcome in the form of a pattern meant for a particular situation. Sjef's camouflage pattern ironically reflects on the tradition of wearing orange during King’s Day in the Netherlands. This research studies belongingness by exploring the balance between the desire to blend in and the need to stand out.
 
 
-** Historical Reference and Modern Day’s Use of Camouflage **
+
+**Historical Reference and Modern Day’s Use of Camouflage**
 
 Sjef started his presentation by going through a few historical references to explain the development of camouflage patterns. Camouflage patterns were first used only in practical ways but then quickly became signifiers by being used to describe the identity of the wearer.
 
@@ -21,8 +21,7 @@ An interesting twist in the history of camouflage happened in the 90s, when hip 
 
 
 ![alt](/data/05-Sjef-van-Gaalen/3/Tech_unit_camo.png)
-
-Image source: http://www.af.mil/News/Article-Display/Article/112733/cadets-study-art-of-cyber-warfare/
+*Image source: http://www.af.mil/News/Article-Display/Article/112733/cadets-study-art-of-cyber-warfare/*
 
 
 One example is called pixel camouflage. Sjef elaborated and questioned if the pixel camouflage stands out as a symbol of a more effective military.
@@ -30,7 +29,8 @@ One example is called pixel camouflage. Sjef elaborated and questioned if the pi
 Meanwhile, the role of camouflage in fashion and advertising grew to represent a tough lifestyle.
 
 
-** From Research to Practical Application **
+
+**From Research to Practical Application**
 
 In the second part of the workshop, Sjef explained the process and thoughts behind his camouflage pattern. When the Dutch military revealed its new camouflage pattern Landmacht 2.0, Sjef became interested in the process of how this pattern was made and the identity behind it. 
 
@@ -38,8 +38,7 @@ If looking closely, it appears similar to the pixelated secret sites on Google E
 
 
 ![alt](/data/05-Sjef-van-Gaalen/3/Camo_gmap.png)
-
-Image source: http://whatculture.com/technology/10-unbelievable-secret-places-google-earth-doesnt-want-see?page=2
+*Image source: http://whatculture.com/technology/10-unbelievable-secret-places-google-earth-doesnt-want-see?page=2*
 
 
 > This intentional glitch hides a dark secret that former Dutch Prime Minister Ruud Lubbers confirmed last summer: there are 22 U.S. nuclear bombs stored in the bunkers of this airbase: B61 thermonuclear bombs, the primary weapon in America’s post-Cold War “Enduring Stockpile,” and a worrying device four times as powerful as the bombs used on Hiroshima and Nagasaki in 1945. Wikileaks published a diplomatic cable that confirmed the presence of nuclear warheads at this base in 2010, but it had never been officially confirmed until the former prime minister let the military secret slip. He told a National Geographic program “I would never have thought those silly things would still be there in 2013. I think they are an absolutely pointless part of a tradition in military thinking.”
@@ -50,14 +49,11 @@ Looking further into the subject, Sjef used the pattern generation method that i
 This method consists of deriving a pattern based on the collage of the environment into which the soldier needs to blend. Reflecting on the method, Sjef designed an orange camouflage as an exploration into the idea of *Dutchness* and what it means to look like an authentic Dutch person.
 
 
-** Creating Your Own Camouflage **
+**Creating Your Own Camouflage**
 
 During the practical part of the workshop, participants created their own camouflage pattern. Each participant told the background story behind the pattern and shared their social situation when they feel like a camo suit would help. These situations ranged from adventurous scenarios, like blending into a data center to reclaim their data, to practical social avoidance scenarios, like being able to go to a grocery store or being present at your own exhibition without having to interact with anyone. As well, one participant made a camo suit from data collected about skin tone diversity in dating app profiles. 
 
 Unlike the hip hop stars in the 90s who used camouflage to project an image of toughness, workshop participants mostly explored the situations of social awkwardness and the temporary and location-based desire not to be seen. Reacting to being visible in physical and digital spaces, participants started by defining the environment into which they wanted to blend and then moved onto the pattern creation, applying instructions to the ‘landscape’ – be it a set of skin tones, a gallery space, or a data center. 
-<gallery mode=packed>
-File:Roos_dataman.png|Blending into a data center – by Roos Groothuizen
-</gallery>
 
 
 The video about the patterns created during the workshop may be found here: https://www.youtube.com/watch?v=kcZy0hOI0KQ&feature=youtu.be

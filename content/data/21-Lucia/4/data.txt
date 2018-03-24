@@ -10,19 +10,19 @@ opacity: 1
 ----
 
 content: 
-[^1] Svanteson, S. (2012). From Chernobyl to Terminator. In *The Conference - Media Evolution*. Malmo. http://www.youtube.com/watch?v=J_dXLjx-NcY
+1 Svanteson, S. (2012). From Chernobyl to Terminator. In *The Conference - Media Evolution*. Malmo. http://www.youtube.com/watch?v=J_dXLjx-NcY
 
-[^2] Briñol, P., Petty, R. & Wagner, B. (2009). Body posture effects on self-evaluation: A self-validation approach. *European Journal of Social Psychology, 39(6)*, p.1055. http://www.psy.ohio-state.edu/petty/documents/2009EJSPBrinolPettyWagner.pdf
+2 Briñol, P., Petty, R. & Wagner, B. (2009). Body posture effects on self-evaluation: A self-validation approach. *European Journal of Social Psychology, 39(6)*, p.1055. http://www.psy.ohio-state.edu/petty/documents/2009EJSPBrinolPettyWagner.pdf
 
-[^3] Further explanation can be read here: http://psychsciencenotes.blogspot.cz/2011/11/embodied-cognition-is-not-what-you.html
+3 Further explanation can be read here: http://psychsciencenotes.blogspot.cz/2011/11/embodied-cognition-is-not-what-you.html
 
-[^4] Dourish, P. (2014). *Where the action is* (p. 18). Johanneshov: MTM.
+4 Dourish, P. (2014). *Where the action is* (p. 18). Johanneshov: MTM.
 
-[^5] Mangen, A., Anda, L., Oxborough, G., & Brønnick, K. (2015). Handwriting versus keyboard writing: Effect on word recall. *Journal Of Writing Research, 7(2)*, 227-247. http://www.jowr.org/articles/vol7_2/JoWR_2015_vol7_nr2_Mangen_et_al.pdf
+5 Mangen, A., Anda, L., Oxborough, G., & Brønnick, K. (2015). Handwriting versus keyboard writing: Effect on word recall. *Journal Of Writing Research, 7(2)*, 227-247. http://www.jowr.org/articles/vol7_2/JoWR_2015_vol7_nr2_Mangen_et_al.pdf
 
-[^6] *2017 starts with sales soaring for paper diaries, notebooks and planners*. (2017). www.tappi.org/News/TAPPI-News/TAPPI-blog/2017-starts-with-sales-soaring-for-paper-diaries,-notebooks-and-planners/ and Kottasová, I. (2017). *Real books are back. E-book sales plunge nearly 20%*. http://money.cnn.com/2017/04/27/media/ebooks-sales-real-books/index.html
+6 *2017 starts with sales soaring for paper diaries, notebooks and planners*. (2017). www.tappi.org/News/TAPPI-News/TAPPI-blog/2017-starts-with-sales-soaring-for-paper-diaries,-notebooks-and-planners/ and Kottasová, I. (2017). *Real books are back. E-book sales plunge nearly 20%*. http://money.cnn.com/2017/04/27/media/ebooks-sales-real-books/index.html
 
-[^7] Ellis-Peterson, H. (2017). *Record sales: vinyl hits 25-year high*. https://www.theguardian.com/music/2017/jan/03/record-sales-vinyl-hits-25-year-high-and-outstrips-streaming
+7 Ellis-Peterson, H. (2017). *Record sales: vinyl hits 25-year high*. https://www.theguardian.com/music/2017/jan/03/record-sales-vinyl-hits-25-year-high-and-outstrips-streaming
 
 
 

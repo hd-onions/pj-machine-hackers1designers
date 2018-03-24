@@ -1,13 +1,6 @@
 path: content/data/blocks/1
 
 ----
-strokeWidth: 0
-
-----
-
-opacity: 1
-
-----
 
 content: # The Making of Hackers & Designers website
 
@@ -4919,6 +4912,151 @@ content: # The Making of Hackers & Designers website
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
+strokeWidth: 0
+
+----
+
+opacity: 1
+
 ----
 
 index: 1
@@ -4949,7 +5087,7 @@ filesNb: 1
 
 ----
 
-font: fira
+font: sportinggrotesque
 
 ----
 

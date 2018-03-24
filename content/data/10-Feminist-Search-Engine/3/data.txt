@@ -9,7 +9,7 @@ opacity: 1
 
 ----
 
-content: In collaboration with Utrecht-based art & research collective Read-in Hackers & Designers developed a Feminist Search Tool [http://feministsearchtool.nl/] – a digital interface that invites users to explore different ways of engaging with the records of the Utrecht University Library[^2]. The interface poses the question, ''Why are the authors of the books I read so white, so male, and so Eurocentric?''
+content: In collaboration with Utrecht-based art & research collective Read-in Hackers & Designers developed a Feminist Search Tool [http://feministsearchtool.nl/] – a digital interface that invites users to explore different ways of engaging with the records of the Utrecht University Library2. The interface poses the question, ''Why are the authors of the books I read so white, so male, and so Eurocentric?''
 
 
 ![alt](/data/10-Feminist-Search-Engine/3/01.jpg)
@@ -21,7 +21,7 @@ The tool has been developed in the context of the project *Unlearning My Library
 The Feminist Search Tool works with a search field, which we all can use to type in a search question. We then search within a selection of the records at the Utrecht University Library published from 2006 to 2016. The selection is made by Read-in and is based on a number of MARC21 fields, to which Read-in poses the question: ''How many female non-Western authors and female authors of color are represented in the Catalogue of the Utrecht University Library?''[^3]. The query considers elements like the language of publication, place of publication, type of publisher, etc. Through an interpretation of these fields, Read-in offers different kinds of filters for accessing the records of the Utrecht University library.
 
 
-The tool was launched on the occasion of Zero Footprint Campus.
+*The tool was launched on the occasion of Zero Footprint Campus.*
 
 
 
